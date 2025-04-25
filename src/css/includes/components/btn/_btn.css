@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--space-4);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.btn-lg {
+  padding: var(--space-3) var(--space-6);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-shadow: var(--shadow-dark) 0px 0px var(--space-1);
+}
+
+.btn-primary-dark {
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+  text-shadow: var(--shadow-dark) 0px 0px var(--space-1);
+}

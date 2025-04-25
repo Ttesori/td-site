@@ -21,13 +21,15 @@
   --break-sm: 640px;
   --break-md: 768px;
   --break-lg: 1024px;
+  --break-xl: 1280px;
 
   /* Fonts */
   --font-headline: 'FeltThatRegular', serif;
   --font-copy: 'Lato', Helvetica, Arial, sans-serif;
   --font-title: 'Roboto Slab', Georgia, 'Times New Roman', serif;
   --font-base-size: 18px;
-  --line-height: 1.5;
+  --line-height: 1.6;
+  --headline-line-height: 1.3;
 }
 
 html {

@@ -18,6 +18,8 @@
   }
 
   .primaryNav__list {
+    height: auto;
+    width: auto;
     flex-direction: row;
     position: relative;
   }

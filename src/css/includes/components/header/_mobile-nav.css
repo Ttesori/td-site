@@ -20,7 +20,7 @@
 
 .primaryNav__btn {
   position: absolute;
-  top: 0.5rem;
+  top: 0.25rem;
   right: 0.5rem;
   z-index: 999;
   width: 2rem;
@@ -48,8 +48,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;

@@ -92,6 +92,10 @@
   padding-top: var(--space-2);
   padding-bottom: var(--space-2);
 }
+.px-2 {
+  padding-right: var(--space-2);
+  padding-left: var(--space-2);
+}
 
 .p-3 {
   padding: var(--space-3);
@@ -173,6 +177,7 @@
 /* Font Families */
 .font-headline {
   font-family: var(--font-headline);
+  line-height: var(--headline-line-height);
 }
 .font-title {
   font-family: var(--font-title);
@@ -195,6 +200,12 @@
 }
 .text-white {
   color: var(--color-white);
+}
+
+.first-line {
+  font-family: var(--font-title);
+  font-weight: bold;
+  color: var(--color-primary-dark);
 }
 
 /* ======= BACKGROUND COLORS ======= */
@@ -251,7 +262,13 @@
 /* ======= DISPLAY & LAYOUT ======= */
 .flex {
   display: flex;
+  flex: 1;
 }
+
+.flex-1 {
+  flex: 1;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -376,6 +393,10 @@
 }
 
 @media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
   .md\:text-lg {
     font-size: var(--text-lg);
   }
@@ -394,9 +415,18 @@
   .md\:flex-row {
     flex-direction: row;
   }
+  .md\:order-1 {
+    order: 1;
+  }
+  .md\:order-2 {
+    order: 2;
+  }
 }
 
 @media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
   .lg\:text-xl {
     font-size: var(--text-xl);
   }
@@ -409,5 +439,11 @@
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
   }
 }
