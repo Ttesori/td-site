@@ -1,0 +1,53 @@
+@import url('_mobile-nav.css');
+
+@media (min-width: 768px) {
+  .primaryNav {
+    transition: none;
+  }
+
+  .primaryNav--hidden {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    overflow: hidden;
+    clip: none;
+    white-space: normal;
+    visibility: visible;
+  }
+
+  .primaryNav__list {
+    flex-direction: row;
+    position: relative;
+  }
+
+  .primaryNav__btn {
+    display: none;
+  }
+
+  .primaryNav__list li {
+    font-size: 1rem;
+  }
+
+  .primaryNav__list a {
+    padding: 0.5rem 1rem;
+    text-transform: lowercase;
+    border-bottom: 3px solid transparent;
+    transition: border 0.2s;
+  }
+
+  .primaryNav__list a:hover {
+    background: none;
+    text-shadow: var(--shadow-dark) 0px 0px 3px;
+    color: var(--color-accent-light);
+    border-bottom: 3px solid var(--color-accent);
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav--primary {
+    position: relative;
+    top: 0.5rem;
+  }
+}

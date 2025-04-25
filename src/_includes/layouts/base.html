@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="{{ body_classes }}">
   {% include "components/header.html" %}
   <main>
     {{ content | safe }}
   </main>
 
 </body>
+<script src="js/main.js"></script>
 
 </html>
