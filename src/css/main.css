@@ -7,28 +7,3 @@ body {
   font-family: var(--font-copy);
   color: var(--color-dark);
 }
-
-.logo {
-  width: 95%;
-  max-width: var(--break-xs);
-  margin: 0 auto;
-}
-
-.logo__img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-@media (min-width: 1024px) {
-  .logo {
-    max-width: 350px;
-  }
-
-  .header__container {
-    align-items: center;
-    max-width: 1024px;
-    margin: 0 auto;
-    justify-content: space-between;
-  }
-}

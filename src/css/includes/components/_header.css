@@ -1,0 +1,43 @@
+@import url('header/_mobile-nav.css');
+@import url('header/_primary-nav.css');
+
+.header {
+  background: var(--color-primary-dark);
+  border-top: 4px solid var(--color-accent);
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  background: var(--color-accent);
+}
+
+.logo {
+  width: 95%;
+  max-width: var(--break-xs);
+  margin: 0 auto;
+}
+
+.logo__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    max-width: 350px;
+  }
+
+  .header__container {
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
