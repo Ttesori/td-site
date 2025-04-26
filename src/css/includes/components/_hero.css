@@ -5,6 +5,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  min-height: 80vh;
 }
 
 .hero .container {
@@ -66,6 +67,7 @@
 @media (min-width: 768px) {
   .hero {
     padding: var(--space-4) var(--space-6);
+    min-height: 26rem;
   }
   .hero .container {
     flex-direction: row;
@@ -78,7 +80,7 @@
     padding: var(--space-2) var(--space-8);
   }
   .hero .container {
-    min-height: 515px;
+    min-height: 29rem;
   }
   .hero__headline {
     font-size: 3rem;
