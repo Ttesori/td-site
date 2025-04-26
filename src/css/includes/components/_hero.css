@@ -76,8 +76,8 @@
   .hero {
     padding: var(--space-2) var(--space-8);
   }
-  .hero__container {
-    min-height: 530px;
+  .hero .container {
+    min-height: 515px;
   }
   .hero__headline {
     font-size: 3rem;
