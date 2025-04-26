@@ -3,6 +3,30 @@
   background: url('/img/bkg-light.webp');
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-4);
+  padding: 0 var(--space-3);
+}
+
+.hero__img {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: var(--space-2) 0;
+  max-width: 28rem;
+}
+
+.hero__text {
+  flex: 1;
+  max-width: 28rem;
 }
 
 .hero img {
@@ -22,13 +46,28 @@
   line-height: var(--headline-line-height);
 }
 
+.hero__headline--primary {
+  color: var(--color-primary);
+}
+
 .hero__copy {
   text-align: center;
+  text-wrap: pretty;
+  padding: 0 var(--space-2);
+}
+
+.hero__btn {
+  gap: var(--space-2);
+  margin-top: var(--space-6);
 }
 
 @media (min-width: 768px) {
   .hero {
     padding: var(--space-4) var(--space-6);
+  }
+  .hero .container {
+    flex-direction: row;
+    gap: var(--space-8);
   }
 }
 
@@ -37,7 +76,9 @@
     padding: var(--space-6) var(--space-8);
   }
   .hero__headline {
-    padding-top: 2rem;
     font-size: 3rem;
+  }
+  .hero__copy {
+    font-size: 1.1rem;
   }
 }

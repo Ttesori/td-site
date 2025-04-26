@@ -9,8 +9,9 @@
   border-radius: var(--space-4);
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   max-width: 500px;
+  transition: all 0.2s;
 }
 
 .btn-wdeco {
@@ -20,7 +21,7 @@
 }
 
 .btn-lg {
-  padding: var(--space-2) var(--space-6);
+  padding: var(--space-3) var(--space-6);
 }
 
 .btn-primary {
@@ -33,4 +34,16 @@
   background: var(--color-primary-dark);
   color: var(--color-white);
   text-shadow: var(--shadow-dark) 0px 0px var(--space-1);
+}
+
+.btn-primary:hover,
+.btn-primary-dark:hover {
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  text-shadow: var(--shadow-light) 0px 0px var(--space-1);
+}
+
+.btn-primary-dark:hover .star--accent {
+  background: url('/img/star-accent-dark.svg');
+  background-size: contain;
 }

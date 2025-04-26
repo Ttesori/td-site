@@ -24,4 +24,5 @@ body {
   bottom: -4px;
   left: 0;
   background: var(--color-accent);
+  z-index: 49;
 }

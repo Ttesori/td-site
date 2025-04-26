@@ -13,7 +13,7 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --shadow-dark: rgba(0, 0, 0, 0.5);
-  --shadow-light: rgba(255, 255, 255, 0.5);
+  --shadow-light: rgba(255, 255, 255, 0.7);
   --dark-overlay: rgba(0, 106, 127, 0.9);
 
   /* Breakpoints */
