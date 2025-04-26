@@ -8,12 +8,23 @@ body {
   color: var(--color-dark);
 }
 
-.star--accent {
+.accent {
+  display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
+  position: relative;
+}
+
+.accent--star {
   background: url('/img/star-accent.svg');
   background-size: contain;
-  position: relative;
+}
+
+.accent--underline {
+  display: inline-block;
+  background: url('/img/accent-underline.svg') no-repeat bottom left;
+  background-size: contain;
+  padding-bottom: 0.75rem;
 }
 
 .b-after::after {

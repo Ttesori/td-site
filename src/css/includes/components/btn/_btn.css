@@ -43,7 +43,7 @@
   text-shadow: var(--shadow-light) 0px 0px var(--space-1);
 }
 
-.btn-primary-dark:hover .star--accent {
+.btn-primary-dark:hover .accent--star {
   background: url('/img/star-accent-dark.svg');
   background-size: contain;
 }

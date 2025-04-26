@@ -55,6 +55,7 @@
   text-align: center;
   text-wrap: pretty;
   padding: 0 var(--space-2);
+  font-size: var(--text-base-lg);
 }
 
 .hero__btn {

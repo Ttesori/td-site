@@ -1,0 +1,76 @@
+.featured {
+  padding: var(--space-8) var(--space-6);
+  font-size: var(--text-base-lg);
+  position: relative;
+  min-height: 22rem;
+}
+
+.featured--primary {
+  background: url('/img/bkg-primary.webp');
+  background-size: cover;
+  color: white;
+  text-shadow: var(--shadow-dark) 0 0 0.25rem;
+}
+
+.featured__title {
+  font-family: var(--font-headline);
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.featured__title--wdeco {
+}
+
+.featured__title .accent {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.featured__copy p {
+  margin: var(--space-3) 0;
+}
+
+.featured .last-line {
+  text-align: center;
+}
+
+.featured__icon {
+  width: 100%;
+  max-width: 150px;
+  margin: var(--space-2) 0;
+  height: auto;
+}
+
+.featured__icon--r {
+  float: right;
+  margin-left: var(--space-6);
+}
+
+.featured__icon--l {
+  float: left;
+  margin-right: var(--space-6);
+}
+
+.featured .container-sm {
+  max-width: 750px;
+}
+
+@media (min-width: 768px) {
+  .featured__icon {
+    max-width: 175px;
+  }
+  .featured__icon--r {
+    margin-left: var(--space-8);
+  }
+
+  .featured__icon--l {
+    margin-right: var(--space-8);
+  }
+
+  .featured .last-line {
+    text-align: left;
+  }
+}
