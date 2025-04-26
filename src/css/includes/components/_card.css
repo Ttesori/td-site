@@ -44,6 +44,7 @@
   }
   .card {
     padding: var(--space-6);
+    min-height: 27rem;
   }
   .card__title {
     font-size: var(--text-lg);
