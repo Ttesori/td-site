@@ -9,11 +9,19 @@ body {
 }
 
 .star--accent {
-  display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
   background: url('/img/star-accent.svg');
   background-size: contain;
   position: relative;
-  top: 4px;
+}
+
+.b-after::after {
+  content: '';
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  background: var(--color-accent);
 }

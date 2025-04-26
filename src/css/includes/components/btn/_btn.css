@@ -10,10 +10,17 @@
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 0.9rem;
+  max-width: 500px;
+}
+
+.btn-wdeco {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-lg {
-  padding: var(--space-3) var(--space-6);
+  padding: var(--space-2) var(--space-6);
 }
 
 .btn-primary {
