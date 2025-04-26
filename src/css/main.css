@@ -8,6 +8,11 @@ body {
   color: var(--color-dark);
 }
 
+div,
+main {
+  position: relative;
+}
+
 .accent {
   display: inline-block;
   height: 1.25rem;
@@ -20,6 +25,13 @@ body {
   background-size: contain;
 }
 
+.accent--arrow {
+  background: url('/img/accent-arrow.svg') no-repeat right;
+  background-size: contain;
+  width: 3rem;
+  position: relative;
+}
+
 .accent--star-dark {
   background: url('/img/star-accent-dark.svg');
   background-size: contain;
@@ -30,6 +42,14 @@ body {
   background: url('/img/accent-underline.svg') no-repeat bottom left;
   background-size: contain;
   padding-bottom: 0.75rem;
+}
+
+.accent-underline--primary {
+  display: block;
+  background: url('/img/accent-underline-primary.svg') no-repeat bottom center;
+  background-size: contain;
+  height: 1.25rem;
+  width: 25rem;
 }
 
 .accent--dots {
@@ -47,7 +67,7 @@ body {
   width: 100vw;
   height: 2px;
   position: absolute;
-  bottom: -4px;
+  bottom: -5px;
   left: 0;
   background: var(--color-accent);
   z-index: 49;
@@ -91,6 +111,18 @@ body {
   margin-bottom: var(--space-8);
   max-width: 35rem;
   line-height: var(--line-height-sm);
+}
+
+.work__title {
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+.work__desc {
+  font-style: italic;
+}
+.work__img {
+  border: 3px solid var(--color-accent);
+  box-shadow: var(--shadow-dark-4) 0 0 var(--space-4);
 }
 
 @media (min-width: 600px) {

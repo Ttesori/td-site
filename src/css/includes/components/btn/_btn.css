@@ -12,6 +12,7 @@
   font-size: 0.95rem;
   max-width: 500px;
   transition: all 0.2s;
+  position: relative;
 }
 
 .btn-wdeco {
@@ -21,9 +22,18 @@
   gap: var(--space-2);
 }
 
+.btn-wdeco--lg {
+  gap: var(--space-4);
+}
+
 .btn-lg {
   padding: var(--space-3) var(--space-6);
   font-size: 1rem;
+}
+
+.btn-xl {
+  padding: var(--space-4) var(--space-7);
+  font-size: 1.1rem;
 }
 
 .btn-primary {

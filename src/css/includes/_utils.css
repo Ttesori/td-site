@@ -307,6 +307,9 @@
 .hidden {
   display: none;
 }
+.pos-rel {
+  position: relative;
+}
 
 .items-center {
   align-items: center;

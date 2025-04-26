@@ -6,13 +6,14 @@
   --color-primary-dark: #006a7f;
   --color-accent-light: #c9f24e;
   --color-accent: #bbe048;
-  --color-accent-dark: #84c12d;
+  --color-accent-dark: #70ae17;
   --color-dark: #50524a;
   --color-light: #dbdbd7;
   --color-lighter: #f6f6f5;
   --color-white: #ffffff;
   --color-black: #000000;
   --shadow-dark: rgba(0, 0, 0, 0.6);
+  --shadow-dark-4: rgba(0, 0, 0, 0.4);
   --shadow-light: rgba(255, 255, 255, 0.7);
   --dark-overlay: rgba(0, 55, 65, 0.9);
 

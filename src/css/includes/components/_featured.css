@@ -12,6 +12,17 @@
   text-shadow: var(--shadow-dark) 0 0 0.25rem;
 }
 
+.featured--primary-dark {
+  background: url('/img/bkg-primary-dark.webp');
+  background-size: cover;
+  color: white;
+  text-shadow: var(--shadow-dark) 0 0 0.25rem;
+}
+
+.featured__cta {
+  margin-top: var(--space-6);
+}
+
 .featured__title {
   font-family: var(--font-headline);
   font-size: 3rem;
@@ -24,9 +35,24 @@
 .featured__title--wdeco {
 }
 
+.featured--center {
+  text-align: center;
+}
+
 .featured__title .accent {
   height: 2.5rem;
   width: 2.5rem;
+}
+
+.featured__title--accent-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured__subtitle {
+  font-weight: normal;
 }
 
 .featured__copy p {
@@ -62,6 +88,9 @@
   .featured {
     min-height: 22rem;
   }
+  .featured .container {
+    max-width: var(--break-lg);
+  }
   .featured__icon {
     max-width: 175px;
   }
@@ -75,5 +104,11 @@
 
   .featured .last-line {
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featured {
+    padding: var(--space-10) var(--space-8);
   }
 }
