@@ -1,45 +1,44 @@
 @import url('_mobile-nav.css');
 
 @media (min-width: 768px) {
-  .primaryNav {
+  .nav__overlay {
     transition: none;
-  }
-
-  .primaryNav--hidden {
+    opacity: 1;
     position: relative;
-    width: auto;
-    height: auto;
-    padding: auto;
-    margin: auto;
-    overflow: hidden;
-    clip: none;
-    white-space: normal;
-    visibility: visible;
+    background: none;
+    pointer-events: all;
   }
 
-  .primaryNav__list {
-    height: auto;
-    width: auto;
+  .nav__menu {
+    margin-top: 0.5rem;
+  }
+
+  .nav__list {
     flex-direction: row;
     position: relative;
+    width: auto;
   }
 
-  .primaryNav__btn {
+  .nav__toggle,
+  .nav__btn-wrap--close {
     display: none;
   }
 
-  .primaryNav__list li {
-    font-size: 1rem;
+  .nav__menu li {
   }
 
-  .primaryNav__list a {
-    padding: 0.5rem 0.75rem;
+  .nav__menu a {
+    font-size: 1.1rem;
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.25rem;
     text-transform: lowercase;
     border-bottom: 3px solid transparent;
     transition: border 0.2s;
+    border-radius: 0;
+    display: flex;
   }
 
-  .primaryNav__list a:hover {
+  .nav__menu a:hover {
     background: none;
     text-shadow: var(--shadow-dark) 0px 0px 3px;
     color: var(--color-accent-light);

@@ -1,25 +1,21 @@
-<nav class="nav nav--primary nav--full">
-  <button id="btnMenu" class="primaryNav__btn primaryNav__btn--close" aria-label="Navigation menu" aria-expanded="false"
-    aria-controls="primaryNav" aria-label="Menu">
-    Menu
+<div class="nav">
+  <button id="nav__toggle" aria-expanded="false" aria-controls="nav__menu" class="nav__toggle">
+    <span class="sr-only">Open menu</span>
+    <span class="nav__btn--open"><img src="/img/btn-open.svg" alt="Open Menu" width="40" height="40"></span>
   </button>
-  <nav id="primaryNav" class="primaryNav--hidden">
-    <ul class="primaryNav__list font-title gap-3">
-      <li>
-        <a href="#" class="nav--home">Home</a>
-      </li>
-      <li>
-        <a href="#" class="nav--about">About</a>
-      </li>
-      <li>
-        <a href="#" class="nav--services">Services</a>
-      </li>
-      <li>
-        <a href="#" class="nav--blog">Blog</a>
-      </li>
-      <li>
-        <a href="#" class="nav--contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-</nav>
+  <div id="nav__overlay" hidden class="nav__overlay">
+    <nav class="nav__menu" id="nav__menu">
+      <ul class="nav__list">
+        <li><a href="#" class="nav--home">Home</a></li>
+        <li><a href="#" class="nav--about">About</a></li>
+        <li><a href="#" class="nav--services">Services</a></li>
+        <li><a href="#" class="nav--blog">Blog</a></li>
+        <li><a href="#" class="nav--contact">Contact</a></li>
+      </ul>
+      <button id="nav__btn-wrap--close" class="nav__btn-wrap--close">
+        <span class="sr-only">Close menu</span>
+        <span class="nav__btn--close">X</span>
+      </button>
+    </nav>
+  </div>
+</div>

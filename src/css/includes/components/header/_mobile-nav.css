@@ -78,3 +78,96 @@
 .primaryNav__list a:hover {
   background: var(--color-primary);
 }
+
+.nav__toggle {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.nav__btn--open {
+  /* Style your hamburger button here */
+}
+
+.nav__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--dark-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease;
+  z-index: 50;
+}
+
+.nav__overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__list li {
+  flex: 1;
+}
+
+.nav__list a {
+  display: block;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: var(--shadow-dark) 0px 0px 3px;
+  font-family: var(--font-title);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 0;
+  transition: all 0.2s;
+  border-radius: 2rem;
+}
+
+.nav__list a:hover {
+  color: #c9f24e;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.nav__btn-wrap--close {
+  background: none;
+  border: 0;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 0.75rem;
+  border-radius: 55%;
+  transition: all 0.2s;
+  color: white;
+}
+
+.nav__btn--close {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.nav__btn-wrap--close:hover {
+  color: #c9f24e;
+  background: rgba(0, 0, 0, 0.5);
+}
