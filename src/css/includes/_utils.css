@@ -16,13 +16,15 @@
   --space-6: 1.5rem;
   --space-7: 1.75rem;
   --space-8: 2rem;
+  --space-9: 2.5rem;
+  --space-10: 3rem;
 
   /* Font Sizes */
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-base-lg: 1.1rem;
-  --text-lg: 1.25rem;
+  --text-lg: 1.2rem;
   --text-xl: 1.5rem;
   --text-2xl: 2rem;
   --text-3xl: 3rem;
@@ -160,6 +162,9 @@
 }
 .text-base {
   font-size: var(--text-base);
+}
+.text-base-lg {
+  font-size: var(--text-base-lg);
 }
 .text-lg {
   font-size: var(--text-lg);
@@ -321,6 +326,13 @@
   max-width: 28rem;
 }
 
+.cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
 .w-full {
   width: 100%;
 }
@@ -441,6 +453,10 @@
   }
   .md\:order-2 {
     order: 2;
+  }
+
+  .cols {
+    flex-direction: row;
   }
 }
 

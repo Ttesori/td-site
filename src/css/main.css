@@ -20,11 +20,26 @@ body {
   background-size: contain;
 }
 
+.accent--star-dark {
+  background: url('/img/star-accent-dark.svg');
+  background-size: contain;
+}
+
 .accent--underline {
   display: inline-block;
   background: url('/img/accent-underline.svg') no-repeat bottom left;
   background-size: contain;
   padding-bottom: 0.75rem;
+}
+
+.accent--dots {
+  display: inline-block;
+  background: url('/img/accent-dots.svg') no-repeat center;
+  background-size: contain;
+  height: 0.75rem;
+  width: 2.5rem;
+  position: relative;
+  top: 40%;
 }
 
 .b-after::after {
@@ -36,4 +51,56 @@ body {
   left: 0;
   background: var(--color-accent);
   z-index: 49;
+}
+
+.main_content {
+  padding: var(--space-8) var(--space-4);
+}
+
+.main_content .container {
+  max-width: var(--break-lg);
+}
+
+.main_content__title {
+  font-family: var(--font-headline);
+  font-weight: normal;
+  font-size: var(--text-3xl);
+  text-align: center;
+  color: var(--color-primary);
+  margin: var(--space-6) auto;
+  max-width: 35rem;
+}
+
+.main_content__title--wdeco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.main_content__title--wdeco .accent {
+  display: none;
+}
+
+.main_content__subtitle {
+  font-weight: normal;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin: var(--space-4) auto;
+  margin-bottom: var(--space-8);
+  max-width: 35rem;
+  line-height: var(--line-height-sm);
+}
+
+@media (min-width: 600px) {
+  .main_content__title--wdeco .accent {
+    display: block;
+  }
+}
+
+@media (min-width: 980px) {
+  .main_content__subtitle {
+    max-width: 50rem;
+  }
 }

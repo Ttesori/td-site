@@ -69,6 +69,9 @@
     padding: var(--space-4) var(--space-6);
     min-height: 26rem;
   }
+  .hero__headline {
+    font-size: 3rem;
+  }
   .hero .container {
     flex-direction: row;
     gap: var(--space-8);
@@ -83,7 +86,7 @@
     min-height: 29rem;
   }
   .hero__headline {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .hero__copy {
     font-size: 1.1rem;
