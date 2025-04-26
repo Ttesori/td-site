@@ -13,8 +13,7 @@
   justify-content: center;
   align-items: center;
   gap: var(--space-4);
-  padding: 0 var(--space-3);
-  min-height: 65vh;
+  padding: var(--space-4) var(--space-3);
 }
 
 .hero__img {
@@ -75,7 +74,10 @@
 
 @media (min-width: 1024px) {
   .hero {
-    padding: var(--space-6) var(--space-8);
+    padding: var(--space-2) var(--space-8);
+  }
+  .hero__container {
+    min-height: 530px;
   }
   .hero__headline {
     font-size: 3rem;
