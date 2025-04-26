@@ -34,6 +34,7 @@
   height: auto;
   display: block;
   max-width: 500px;
+  aspect-ratio: 543 / 500;
 }
 
 .hero__headline {
