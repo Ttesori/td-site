@@ -29,6 +29,7 @@
   --font-title: 'Roboto Slab', Georgia, 'Times New Roman', serif;
   --font-base-size: 18px;
   --line-height: 1.6;
+  --line-height-sm: 1.5;
   --headline-line-height: 1.3;
 }
 
