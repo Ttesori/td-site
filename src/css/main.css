@@ -73,6 +73,15 @@ main {
   z-index: 49;
 }
 
+.add-dashed::after {
+  content: '';
+  width: 100%;
+  display: block;
+  background: url('/img/accent-dashed-line.svg') no-repeat;
+  height: 1rem;
+  margin-top: 1rem;
+}
+
 .main_content {
   padding: var(--space-8) var(--space-4);
 }
