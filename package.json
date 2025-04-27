@@ -15,5 +15,8 @@
     "@11ty/eleventy": "^3.0.0",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
     "modern-normalize": "^3.0.1"
+  },
+  "devDependencies": {
+    "@codestitchofficial/eleventy-plugin-minify": "^1.1.3"
   }
 }
