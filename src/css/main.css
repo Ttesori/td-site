@@ -1,7 +1,7 @@
 @import url('../../node_modules/modern-normalize/modern-normalize.css');
 @import url('includes/_base.css');
-@import url('includes/_utils.css');
 @import url('includes/_components.css');
+@import url('includes/_utils.css');
 
 body {
   font-family: var(--font-copy);
@@ -16,7 +16,7 @@ body {
 }
 
 .accent--star {
-  background: url('/img/star-accent.svg');
+  background: url('/img/star-accent.svg') no-repeat;
   background-size: contain;
 }
 

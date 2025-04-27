@@ -58,6 +58,15 @@
 }
 
 .featured__title--wdeco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.featured__title--wdeco .accent {
+  display: none;
 }
 
 .featured--center {
@@ -79,6 +88,9 @@
 .featured__subtitle {
   font-weight: normal;
   line-height: var(--headline-line-height);
+  font-size: var(--text-base-lg);
+  line-height: var(--leading);
+  text-wrap: pretty;
 }
 
 .featured__copy p {
@@ -142,6 +154,9 @@
 
   .featured .last-line {
     text-align: left;
+  }
+  .featured__title--wdeco .accent {
+    display: flex;
   }
 }
 
