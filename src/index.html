@@ -99,22 +99,32 @@ body_classes: home
       like.</h3>
     <div class="cards cards--transparent cards--center">
       <div class="card">
-        <img loading="lazy" src="/img/work/ugli-sm_sm.webp" alt="An image showcasing 5 social media graphics"
-          width="500" height="350" class="card__img card__img--md work__img">
+        <button class="modal__btn open-modal-button" data-image="/img/work/ugli-sm.webp" data-alt="UGLI Foundation"
+          data-description="Instagram graphics for various campaigns">
+          <img loading="lazy" src="/img/work/ugli-sm_sm.webp" alt="An image showcasing 5 social media graphics"
+            width="500" height="350" class="card__img card__img--md work__img"></button>
         <p class="card__copy work__copy"><span class="work__title">UGLI Foundation</span><br>
           <span class="work__desc">Social Media Graphics</span>
         </p>
       </div>
       <div class="card card--transparent">
-        <img loading="lazy" src="/img/work/hff-website_sm.webp" alt="An image showcasing a website" width="500"
-          height="350" class="card__img card__img--md work__img">
+
+        <button class="modal__btn open-modal-button" data-image="/img/work/hff-website.webp"
+          data-alt="Website for Horschel Family Foundation" data-description="Website Design and Wordpress Development"
+          data-link="https://horschelfamilyfoundation.org">
+          <img src="/img/work/hff-website_sm.webp" alt="Website for Horschel Family Foundation" width="500" height="350"
+            class="card__img card__img--md work__img">
+
+        </button>
         <p class="card__copy"><span class="work__title">Horschel Family Foundation</span><br>
           <span class="work__desc">Website Design</span>
         </p>
       </div>
       <div class="card card--transparent">
-        <img loading="lazy" src="/img/work/wrf_deck_sm.webp" alt="An image showcasing a sponsorship deck" width="500"
-          height="350" class="card__img card__img--md work__img">
+        <button class="modal__btn open-modal-button" data-image="/img/work/wrf_deck.webp" data-alt="We Rise Foundation"
+          data-description="Event Sponsorship Deck">
+          <img loading="lazy" src="/img/work/wrf_deck_sm.webp" alt="An image showcasing a sponsorship deck" width="500"
+            height="350" class="card__img card__img--md work__img"></button>
         <p class="card__copy"><span class="work__title">We Rise Foundation</span><br>
           <span class="work__desc">Sponsorship Materials</span>
         </p>
@@ -197,3 +207,12 @@ body_classes: home
     </form>
   </div>
 </aside>
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-heading"
+  aria-describedby="modal-description">
+  <div class="modal-content" role="document">
+    <button id="modal-close" class="modal-close" aria-label="Close Modal">×</button>
+    <img id="modal-image" src="" alt="" />
+    <h3 id="modal-heading" class="modal__heading">Portfolio Item</h3> <!-- for screen reader title -->
+    <p id="modal-description" class="modal__description"></p>
+  </div>
+</div>
