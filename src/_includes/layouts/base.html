@@ -12,10 +12,10 @@
 
 <body class="{{ body_classes }}">
   {% include "components/header.html" %}
-  <main>
+  <div class="body__content">
     {{ content | safe }}
-  </main>
-
+  </div>
+  {% include "components/footer.html" %}
 </body>
 
 <script src="js/main.js"></script>

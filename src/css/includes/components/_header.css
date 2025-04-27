@@ -28,7 +28,7 @@
 
   .header__container {
     align-items: center;
-    max-width: 1000px;
+    max-width: var(--break-lg);
     margin: 0 auto;
     justify-content: space-between;
   }
@@ -36,6 +36,5 @@
 
 @media (min-width: 1280px) {
   .header__container {
-    max-width: 1200px;
   }
 }
