@@ -31,6 +31,10 @@
   font-size: 1rem;
 }
 
+.btn-wide {
+  padding: var(--space-3) var(--space-8);
+}
+
 .btn-xl {
   padding: var(--space-4) var(--space-7);
   font-size: 1.1rem;
@@ -74,4 +78,21 @@
 .btn--accent:hover .accent--star {
   background: url('/img/star-accent.svg');
   background-size: contain;
+}
+
+.btn-group {
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .btn-wide {
+    padding: var(--space-4) var(--space-8);
+  }
+  .btn {
+    font-size: var(--text-base);
+    letter-spacing: 1px;
+  }
+  .btn-wdeco {
+    gap: var(--space-2);
+  }
 }

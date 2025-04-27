@@ -8,11 +8,6 @@ body {
   color: var(--color-dark);
 }
 
-div,
-main {
-  position: relative;
-}
-
 .accent {
   display: inline-block;
   height: 1.25rem;
@@ -32,6 +27,13 @@ main {
   position: relative;
 }
 
+.accent--arrow-sm {
+  background: url('/img/accent-arrow-sm-dk.svg') no-repeat center;
+  background-size: contain;
+  width: 2rem;
+  position: relative;
+}
+
 .accent--star-dark {
   background: url('/img/star-accent-dark.svg');
   background-size: contain;
@@ -48,8 +50,9 @@ main {
   display: block;
   background: url('/img/accent-underline-primary.svg') no-repeat bottom center;
   background-size: contain;
-  height: 1.25rem;
+  height: 1.5rem;
   width: 25rem;
+  max-width: 85%;
 }
 
 .accent--dots {
@@ -132,11 +135,21 @@ main {
 .work__img {
   border: 3px solid var(--color-accent);
   box-shadow: var(--shadow-dark-4) 0 0 var(--space-4);
+  max-width: 320px;
+}
+
+.work__copy {
+  margin-top: var(--space-3);
+  line-height: var(--line-height-sm);
 }
 
 @media (min-width: 600px) {
   .main_content__title--wdeco .accent {
     display: block;
+  }
+  .work__img {
+    max-width: 340px;
+    aspect-ratio: 500 / 350;
   }
 }
 

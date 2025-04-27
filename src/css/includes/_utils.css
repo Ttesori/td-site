@@ -18,6 +18,7 @@
   --space-8: 2rem;
   --space-9: 2.5rem;
   --space-10: 3rem;
+  --space-12: 4rem;
 
   /* Font Sizes */
   --text-xs: 0.75rem;
@@ -248,34 +249,6 @@
   background-color: var(--color-lighter);
 }
 
-/* ======= BORDERS ======= */
-.bt-1 {
-  border-top-width: 1px;
-}
-.bt-3 {
-  border-top-width: 3px;
-}
-.bt-5 {
-  border-top-width: 5px;
-}
-
-.bb-1 {
-  border-bottom-width: 1px;
-}
-.bb-3 {
-  border-bottom-width: 3px;
-}
-.bb-5 {
-  border-bottom-width: 5px;
-}
-
-.b-accent {
-  border-color: var(--color-accent);
-}
-.b-solid {
-  border-style: solid;
-}
-
 /* ======= DISPLAY & LAYOUT ======= */
 .flex {
   display: flex;
@@ -309,6 +282,15 @@
 }
 .pos-rel {
   position: relative;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
 }
 
 .items-center {
@@ -347,13 +329,13 @@
 .w-full {
   width: 100%;
 }
-.max-w-screen-sm {
+.max-w-sm {
   max-width: var(--break-sm);
 }
-.max-w-screen-md {
+.max-w-md {
   max-width: var(--break-md);
 }
-.max-w-screen-lg {
+.max-w-lg {
   max-width: var(--break-lg);
 }
 .max-w-xs {
@@ -413,6 +395,10 @@
   border: 0;
 }
 
+.md\:visible {
+  display: none;
+}
+
 /* ======= MEDIA QUERIES ======= */
 @media (min-width: 480px) {
   .sm\:text-base {
@@ -440,9 +426,15 @@
     max-width: 980px;
     margin: 0 auto;
   }
+  .md\:visible {
+    display: block;
+  }
 
   .md\:text-lg {
     font-size: var(--text-lg);
+  }
+  .md\:text-left {
+    text-align: left;
   }
   .md\:text-xl {
     font-size: var(--text-xl);
