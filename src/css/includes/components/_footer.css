@@ -3,7 +3,7 @@
   border-top: 3px solid var(--color-accent);
   border-bottom: 5px solid var(--color-accent);
   color: white;
-  padding: var(--space-6) var(--space-4) var(--space-8);
+  padding: var(--space-6) var(--space-6) var(--space-8);
 }
 
 .footer .container {
@@ -28,7 +28,7 @@
   margin: 0;
   padding: 0;
   margin-top: var(--space-4);
-  gap: var(--space-4);
+  gap: var(--space-5);
 }
 
 .social-icons li {

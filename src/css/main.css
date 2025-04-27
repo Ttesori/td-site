@@ -86,7 +86,7 @@ body {
 }
 
 .main_content {
-  padding: var(--space-8) var(--space-4);
+  padding: var(--space-10) var(--space-6);
 }
 
 .main_content .container {

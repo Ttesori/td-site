@@ -2,7 +2,6 @@
 const menuToggle = document.getElementById('nav__toggle');
 const menu = document.getElementById('nav__overlay');
 const menuClose = document.getElementById('nav__btn-wrap--close');
-console.log(menuToggle, menu, menuClose);
 
 menuToggle.addEventListener('click', () => {
   const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
