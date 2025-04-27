@@ -194,6 +194,9 @@
 .font-bold {
   font-weight: var(--font-bold);
 }
+.font-italic {
+  font-style: italic;
+}
 /* Font Families */
 .font-headline {
   font-family: var(--font-headline);
