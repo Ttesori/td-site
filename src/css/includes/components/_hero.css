@@ -87,13 +87,16 @@
 @media (min-width: 1024px) {
   .hero {
     padding: var(--space-2) var(--space-8);
-    min-height: 30rem;
+    min-height: 31rem;
   }
   .hero .container {
-    min-height: 29rem;
+    min-height: 30rem;
   }
   .hero__headline {
     font-size: 3.5rem;
+  }
+  .hero__text {
+    max-width: 100%;
   }
   .hero__copy {
     font-size: 1.1rem;
