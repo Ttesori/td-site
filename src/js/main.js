@@ -105,6 +105,7 @@ function trapFocus(e) {
 function closeModal() {
   modal.classList.remove('show');
   modal.setAttribute('aria-hidden', 'true');
+
   if (lastFocusedElement) {
     lastFocusedElement.focus(); // Return focus to the button/image that opened the modal
   }

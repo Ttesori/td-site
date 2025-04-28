@@ -60,7 +60,11 @@
 }
 
 .card__copy {
-  margin-bottom: 0;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.card__btn {
+  margin-top: 0.5rem;
 }
 
 @media (min-width: 980px) {
