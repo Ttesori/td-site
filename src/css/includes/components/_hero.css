@@ -72,7 +72,7 @@
   font-family: var(--font-title);
   color: var(--color-primary-dark);
   text-align: center;
-  font-size: var(--text-lg-2);
+  font-size: var(--text-lg);
   line-height: var(--headline-line-height);
   font-weight: normal;
 }
@@ -106,15 +106,16 @@
   .hero {
     padding: var(--space-8) var(--space-6);
   }
-  .hero__img {
-    flex-basis: 50%;
-    flex-grow: 0;
-    flex-shrink: 0;
+  .hero__img,
+  .hero__text {
+    flex: 1;
   }
   .hero__headline {
     font-size: 3rem;
   }
   .hero .container {
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: var(--space-8);
     min-height: 27rem;
