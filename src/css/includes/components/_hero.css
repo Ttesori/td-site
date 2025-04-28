@@ -24,24 +24,13 @@
   align-items: center;
   padding: var(--space-2) 0;
   max-width: 28rem;
-
-  min-height: 18rem;
 }
 
 .hero__text {
   flex: 1;
-  max-width: 28rem;
   flex-basis: 50%;
   flex-grow: 0;
   flex-shrink: 0;
-}
-
-.home .hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 500px;
-  aspect-ratio: 500 / 460;
 }
 
 .hero__headline {
@@ -67,6 +56,16 @@
 
 .hero__btn {
   margin-top: var(--space-6);
+}
+
+/* Page Specific */
+
+.home .hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 500px;
+  aspect-ratio: 500 / 460;
 }
 
 @media (min-width: 768px) {
@@ -98,9 +97,7 @@
   .hero__headline {
     font-size: 3.5rem;
   }
-  .hero__text {
-    max-width: 100%;
-  }
+
   .hero__copy {
     font-size: 1.1rem;
   }

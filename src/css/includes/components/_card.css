@@ -7,11 +7,6 @@
   flex-direction: column;
 }
 
-/* .cards--sm {
-  margin: var(--space-2) 0;
-  gap: var(--space-1);
-} */
-
 .card {
   padding: var(--space-8) var(--space-6);
   border-radius: var(--space-9);
@@ -40,10 +35,6 @@
   max-width: 23rem;
 }
 
-.cards--center .card {
-  text-align: center;
-}
-
 .card--light {
   background: var(--color-lighter);
 }
@@ -64,7 +55,8 @@
 
 .card__icon {
   display: block;
-  margin: 0 auto var(--space-4);
+  margin: 0 auto var(--space-2);
+  max-width: 10rem;
 }
 
 .card__copy {

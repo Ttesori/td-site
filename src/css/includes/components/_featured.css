@@ -1,5 +1,4 @@
 .featured {
-  padding: var(--space-10) var(--space-6);
   font-size: var(--text-base);
   position: relative;
   min-height: 23rem;
@@ -7,14 +6,8 @@
   justify-content: center;
   align-items: center;
   min-height: 23rem;
-}
-
-.featured .container {
-  max-width: 100%;
-}
-
-.featured--sm {
-  font-size: var(--text-base);
+  text-align: center;
+  padding: var(--space-10) var(--space-6) var(--space-12);
 }
 
 .featured--primary {
@@ -52,11 +45,10 @@
   font-family: var(--font-headline);
   font-size: 3rem;
   font-weight: normal;
-  text-align: center;
   margin: var(--space-3) var(--space-2) var(--space-4);
 }
 
-.featured__title--wdeco {
+.featured__title--deco {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,20 +56,14 @@
   gap: var(--space-4);
 }
 
-.featured__title--wdeco .accent {
+.featured__title--deco .accent {
+  height: 2.5rem;
+  width: 2.5rem;
   display: none;
 }
 
-.featured--center {
-  text-align: center;
-}
-
-.featured__title .accent {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-
-.featured__title--accent-b {
+/* Bottom Accent */
+.featured__title--deco-b {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,29 +103,24 @@
   margin-right: var(--space-6);
 }
 
-.featured .container-sm {
-  max-width: 750px;
-}
-
 .featured .featured__img {
   width: 100%;
   height: auto;
 }
 
+.featured__img-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .featured {
     min-height: 22rem;
-  }
-  .featured .container {
-    max-width: var(--break-lg);
     font-size: 1.1em;
   }
-  .featured .container--md {
-    max-width: var(--break-md);
-  }
-  .featured .container--xl {
-    max-width: var(--break-xl);
-  }
+
   .featured__icon {
     max-width: 175px;
   }
@@ -154,21 +135,20 @@
   .featured .last-line {
     text-align: left;
   }
-  .featured__title--wdeco .accent {
+  .featured__title--deco .accent {
     display: flex;
   }
 }
 
 @media (min-width: 1024px) {
   .featured {
-    padding: var(--space-10) var(--space-8);
   }
   .featured__title.lg--left {
     text-align: left;
   }
   .featured__cols {
     flex-direction: row;
-    gap: var(--space-6);
+    gap: var(--space-10);
   }
 }
 

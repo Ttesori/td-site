@@ -404,6 +404,22 @@
   display: none;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.container--md {
+  max-width: var(--break-md);
+}
+
+.container--lg {
+  max-width: var(--break-lg);
+}
+
+.container--xl {
+  max-width: var(--break-xl);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -443,10 +459,6 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 980px;
-    margin: 0 auto;
-  }
   .md\:visible {
     display: block;
   }
@@ -485,9 +497,6 @@
 }
 
 @media (min-width: 1024px) {
-  .container {
-    max-width: 1200px;
-  }
   .lg\:text-xl {
     font-size: var(--text-xl);
   }
@@ -513,7 +522,4 @@
 }
 
 @media (min-width: 1280px) {
-  .container {
-    max-width: 1380px;
-  }
 }

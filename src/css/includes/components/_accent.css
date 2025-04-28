@@ -1,0 +1,82 @@
+.accent {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+}
+
+.accent--star {
+  background: url('/img/star-accent.svg') no-repeat;
+  background-size: contain;
+}
+
+.accent--arrow {
+  background: url('/img/accent-arrow.svg') no-repeat right;
+  background-size: contain;
+  width: 3rem;
+  position: relative;
+}
+
+.accent--arrow-sm {
+  background: url('/img/accent-arrow-sm-dk.svg') no-repeat center;
+  background-size: contain;
+  width: 2rem;
+  position: relative;
+}
+
+.accent--star-dark {
+  background: url('/img/star-accent-dark.svg');
+  background-size: contain;
+}
+
+.accent--underline {
+  display: inline-block;
+  background: url('/img/accent-underline.svg') no-repeat bottom left;
+  background-size: contain;
+  padding-bottom: 0.75rem;
+}
+
+.accent--underline-primary {
+  display: block;
+  background: url('/img/accent-underline-primary.svg') no-repeat bottom center;
+  background-size: contain;
+  height: 1.5rem;
+  width: 85%;
+}
+
+.accent--dots {
+  display: inline-block;
+  background: url('/img/accent-dots.svg') no-repeat center;
+  background-size: contain;
+  height: 0.75rem;
+  width: 2.5rem;
+  position: relative;
+  top: 40%;
+}
+
+.accent--border::after {
+  content: '';
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: var(--color-accent);
+  z-index: 49;
+}
+
+.accent--dashed::after {
+  content: '';
+  width: 100%;
+  display: block;
+  background: url('/img/accent-dashed-line.svg') no-repeat;
+  height: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .accent--underline-primary {
+    height: 1.25rem;
+    width: 85%;
+  }
+}
