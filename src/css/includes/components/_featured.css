@@ -11,14 +11,14 @@
 }
 
 .featured--primary {
-  background: url('/img/bkg-primary.webp');
+  background: #006a7f url('/img/bkg-primary.webp');
   background-size: cover;
   color: white;
   text-shadow: var(--shadow-dark) 0 0 0.25rem;
 }
 
 .featured--primary-dark {
-  background: url('/img/bkg-primary-dark.webp');
+  background: #006a7f url('/img/bkg-primary-dark.webp');
   background-size: cover;
   color: white;
   text-shadow: var(--shadow-dark) 0 0 0.25rem;

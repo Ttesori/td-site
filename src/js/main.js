@@ -63,6 +63,7 @@ openModalButtons.forEach(button => {
 
     modal.classList.add('show');
     modal.setAttribute('aria-hidden', 'false');
+    closeModalButton.removeAttribute('tabindex');
     closeModalButton.focus();
   });
 });
@@ -105,6 +106,7 @@ function trapFocus(e) {
 function closeModal() {
   modal.classList.remove('show');
   modal.setAttribute('aria-hidden', 'true');
+  closeModalButton.setAttribute('tabindex', '-1');
 
   if (lastFocusedElement) {
     lastFocusedElement.focus(); // Return focus to the button/image that opened the modal

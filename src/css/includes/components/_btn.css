@@ -54,7 +54,7 @@
 
 .btn--accent {
   background: var(--color-accent);
-  color: var(--color-primary-dark);
+  color: var(--color-primary-darker);
   text-shadow: var(--shadow-light) 0px 0px var(--space-1);
 }
 
