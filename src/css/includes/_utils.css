@@ -29,7 +29,7 @@
   --text-lg-2: 1.35rem;
   --text-xl: 1.5rem;
   --text-2xl: 2rem;
-  --text-3xl: 3rem;
+  --text-3xl: 3.25rem;
   --text-4xl: 4rem;
 
   /* Leading */
@@ -340,6 +340,13 @@
   justify-content: space-between;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-self-end {
+  align-self: end;
+}
 .h-auto {
   height: auto;
 }
@@ -452,6 +459,10 @@
   display: none;
 }
 
+.sm\:hide {
+  display: none;
+}
+
 /* ======= MEDIA QUERIES ======= */
 @media (min-width: 480px) {
   .sm\:text-base {
@@ -475,6 +486,9 @@
 }
 
 @media (min-width: 768px) {
+  .sm\:hide {
+    display: block;
+  }
   .md\:visible {
     display: block;
   }

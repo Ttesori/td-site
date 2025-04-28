@@ -6,7 +6,7 @@ page_desc: "Meet Toni, the designer behind Tesori Design. I create websites and 
 businesses with care and creativity."
 ---
 
-<section class="hero">
+<section class="hero accent--border">
   <div class="container container--lg">
     <div class="hero__img">
       <img src="/img/hero-about.webp" alt="Image of a smiling woman with a blurred computer monitor behind her"
@@ -28,5 +28,103 @@ businesses with care and creativity."
         images that make your work look as good as it is.
       </p>
     </div>
+  </div>
+</section>
+
+<section class="featured featured--primary values accent--border">
+
+  <div class="container container--lg flex flex-col justify-end">
+    <h2 class="featured__title featured__title-deco align-self-end "><span
+        class="accent accent--dots accent--sm-hide"></span>
+      What I
+      Value <span class="accent accent--dots accent--sm-hide"></span></h2>
+    <div class="featured__cols">
+      <div class="featured__img-container flex-2">
+        <img src="/img/icon-heart.svg" width="240" height="214" class="featured__img sm:hide" alt="">
+      </div>
+
+      <ul class="featured__list flex-3">
+        <li><strong>Intentional simplicity.</strong> Designs that do their job unnecessary complications just make
+          sense.</li>
+        <li><strong>Efficiency + ease.</strong> Design should make your life easier, not more complicated.</li>
+        <li><strong>Consistency.</strong> Your brand deserves to feel like home everywhere it appears, from business
+          cards to websites.
+        </li>
+      </ul>
+
+      <ul class="featured__list flex-3">
+        <li><strong>Accessibility.</strong> I prioritize layouts, colors, and content that are usable by everyone.</li>
+        <li><strong>Room to Breathe.</strong> Hierarchy and whitespace are non-negotiables (they’re like a comfy blanket
+          for your eyes).
+        </li>
+        <li><strong>Design with purpose.</strong> Everything I create is rooted in what you need to communicate, not
+          what trends dictate.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<main class="main_content accent--border">
+  <div class="container container--lg main_content__cols">
+    <div class="flex-2">
+      <h2 class="main_content__title main_content__title--deco-b">My Story
+        <span class="accent accent--underline-accent"></span>
+      </h2>
+      <p><span class="first-line">I’ve been a designer in some form or another</span> since way back in the 1900s (as my
+        teenager lovingly calls it). I taught myself to code in middle school, fell in love with graphic design working
+        on my high school yearbook, and I haven’t stopped since.</p>
+      <p> <span class="first-line">After graduating from Florida State University (go Noles!),</span> I worked with
+        state agencies, large corporations, small businesses, and nonprofits - but it’s the last two that feel like
+        home. I have so much respect for folks doing the brave thing: building businesses, supporting their communities,
+        and showing up even when it’s hard.</p>
+      <p>
+        <span class="first-line">These days, I can be found running Tesori Design</span> from my cozy home office in
+        Colorado...usually rocking Eras Tour merch, with my planner (a necessity!) and a penguin mascot named Ty*
+        keeping me company. <br><span class="text-sm font-italic">*Long story, but he’s part personal history, part
+          branding
+          spirit guide.</span>
+
+      </p>
+    </div>
+    <div class="flex-1 sm:hide">
+      <img src="/img/about.webp" width="460" height="815" style="aspect-ratio: 460 / 815" class="main_content__img">
+    </div>
+
+  </div>
+</main>
+
+<section class="featured featured--primary-dark accent--border">
+  <div class="container container--lg">
+    <h2 class="featured__title featured__title--deco"><span
+        class="accent accent--icon-checkbox accent--sm-hide"></span><span>I'm a good
+        fit
+        for folks who...</span></h2>
+    <div class="featured__cols">
+      <ul class="featured__list">
+        <li><strong>Care deeply about their work</strong> and want it to look as thoughtful as it is.</li>
+        <li><strong>Are DIY-ing out of necessity</strong> - or putting things off because it feels too overwhelming.
+        </li>
+        <li><strong>Haven’t touched their website</strong> in three years and honestly are afraid to look.</li>
+      </ul>
+      <ul class="featured__list">
+        <li><strong>Want someone to just handle it</strong> so they can get back to doing their actual work.</li>
+        <li><strong>Could use a calm, capable human</strong> on their team.</li>
+        <li><strong>Want to feel more confident</strong> sharing their brand with the world.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="featured featured--light">
+  <div class="container container--md">
+    <h2 class="featured__title featured__title--deco"><span
+        class="accent accent--icon-sparkle accent--sm-hide"></span>Have a project in mind?</h2>
+    <h3 class="featured__subtitle"><strong>Feel free to browse my <a href="#">services</a></strong> <em>(you’ll spot
+        some
+        recent work there too)</em> or reach out if you’d like to start a conversation.</h3>
+
+    {% include "components/contact-form.html" %}
   </div>
 </section>

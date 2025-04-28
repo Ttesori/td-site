@@ -83,9 +83,35 @@
   margin-top: 1rem;
 }
 
+.accent--sm-hide {
+  display: none;
+}
+
+.accent--icon-checkbox {
+  background: url('/img/icon-checkbox.svg') no-repeat;
+  background-position: 0 0.5rem;
+  background-size: contain;
+  width: 4rem;
+  height: 4.5rem;
+}
+
+.accent--icon-sparkle {
+  background: url('/img/icon-sparkle-accent-dark.svg') no-repeat;
+  background-position: 0 0.5rem;
+  background-size: contain;
+  width: 3.5rem;
+  height: 5rem;
+  position: relative;
+  top: -1rem;
+}
+
 @media (min-width: 768px) {
   .accent--underline-primary {
     height: 1.25rem;
     width: 85%;
+  }
+
+  .accent--sm-hide {
+    display: inline-block;
   }
 }

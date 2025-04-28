@@ -34,18 +34,24 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  gap: var(--space-4);
 }
 
 .featured__cta {
   margin-top: var(--space-6);
 }
 
+.featured--light .featured__title,
+.featured--light form {
+  color: var(--color-primary);
+}
+
 .featured__title {
   font-family: var(--font-headline);
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: normal;
   margin: var(--space-3) var(--space-2) var(--space-4);
+  width: 100%;
+  text-wrap: pretty;
 }
 
 .featured__title--deco {
@@ -57,9 +63,11 @@
 }
 
 .featured__title--deco .accent {
-  height: 2.5rem;
-  width: 2.5rem;
-  display: none;
+}
+
+.featured__title--deco .accent--icon-checkbox {
+  position: relative;
+  top: -1.25rem;
 }
 
 /* Bottom Accent */
@@ -76,6 +84,20 @@
   font-size: var(--text-base-lg);
   line-height: var(--leading);
   text-wrap: pretty;
+}
+
+.featured__subtitle strong {
+  font-family: var(--font-title);
+}
+
+.featured--light .featured__subtitle {
+  color: var(--color-primary-dark);
+}
+
+.featured__cols {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-2);
 }
 
 .featured__copy p {
@@ -115,6 +137,40 @@
   justify-content: center;
 }
 
+.featured__list {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.featured__list li {
+  margin-bottom: var(--space-4);
+  font-size: var(--text-base);
+  line-height: var(--headline-line-height);
+  text-wrap: pretty;
+  background: url('/img/accent-star-bullet.svg') no-repeat top left;
+  padding-left: var(--space-9);
+  list-style: none;
+  min-height: 1.5rem;
+}
+
+.featured__list strong {
+  font-family: var(--font-title);
+}
+.featured a {
+  color: currentColor;
+  transition: all 0.2s;
+  display: inline-block;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.featured--light a {
+  text-decoration-color: var(--color-accent-dark);
+}
+.featured a:hover {
+  filter: brightness(1.3);
+}
+
 @media (min-width: 768px) {
   .featured {
     min-height: 22rem;
@@ -136,7 +192,11 @@
     text-align: left;
   }
   .featured__title--deco .accent {
-    display: flex;
+  }
+  .featured__cols {
+    gap: var(--space-4);
+    flex-direction: row;
+    align-items: center;
   }
 }
 
@@ -148,7 +208,7 @@
   }
   .featured__cols {
     flex-direction: row;
-    gap: var(--space-10);
+    gap: var(--space-8);
   }
 }
 
