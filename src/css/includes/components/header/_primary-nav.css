@@ -53,10 +53,10 @@
     color: var(--color-accent-light);
   }
   .home .nav--home::before,
-  .about .nav--about,
-  .services .nav--services,
-  .blog .nav--blog,
-  .contact .nav--contact {
+  .about .nav--about::before,
+  .services .nav--services::before,
+  .blog .nav--blog::before,
+  .contact .nav--contact::before {
     content: url('/img/star-accent.svg');
     display: inline-block;
     width: 1rem;

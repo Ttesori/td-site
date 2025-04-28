@@ -38,50 +38,55 @@ const openModalButtons = document.querySelectorAll('.open-modal-button');
 const closeModalButton = document.getElementById('modal-close');
 let lastFocusedElement;
 
-openModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    lastFocusedElement = document.activeElement;
+if (openModalButtons) {
+  openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      lastFocusedElement = document.activeElement;
 
-    const imgSrc = button.getAttribute('data-image');
-    const imgAlt = button.getAttribute('data-alt');
-    const imgDesc = button.getAttribute('data-description');
-    const imgLink = button.getAttribute('data-link');
-    const descEl = document.getElementById('modal-description');
+      const imgSrc = button.getAttribute('data-image');
+      const imgAlt = button.getAttribute('data-alt');
+      const imgDesc = button.getAttribute('data-description');
+      const imgLink = button.getAttribute('data-link');
+      const descEl = document.getElementById('modal-description');
 
-    modalImage.src = imgSrc;
-    modalImage.alt = imgAlt;
-    descEl.textContent = imgDesc;
-    document.getElementById('modal-heading').textContent = imgAlt;
-    if (imgLink) {
-      const a = document.createElement('a');
-      a.setAttribute('href', imgLink);
-      a.classList.add('modal__link');
-      a.textContent = 'View Website';
+      modalImage.src = imgSrc;
+      modalImage.alt = imgAlt;
+      descEl.textContent = imgDesc;
+      document.getElementById('modal-heading').textContent = imgAlt;
+      if (imgLink) {
+        const a = document.createElement('a');
+        a.setAttribute('href', imgLink);
+        a.classList.add('modal__link');
+        a.textContent = 'View Website';
 
-      descEl.appendChild(a);
+        descEl.appendChild(a);
+      }
+
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden', 'false');
+      closeModalButton.removeAttribute('tabindex');
+      closeModalButton.focus();
+    });
+  });
+}
+
+if (closeModalButton) {
+  closeModalButton.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('show')) {
+      closeModal();
     }
 
-    modal.classList.add('show');
-    modal.setAttribute('aria-hidden', 'false');
-    closeModalButton.removeAttribute('tabindex');
-    closeModalButton.focus();
+    if (e.key === 'Tab' && modal.classList.contains('show')) {
+      trapFocus(e);
+    }
   });
-});
+}
 
-closeModalButton.addEventListener('click', closeModal);
-modal.addEventListener('click', (e) => {
-  if (e.target === modal) closeModal();
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && modal.classList.contains('show')) {
-    closeModal();
-  }
-
-  if (e.key === 'Tab' && modal.classList.contains('show')) {
-    trapFocus(e);
-  }
-});
 
 function trapFocus(e) {
   const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');

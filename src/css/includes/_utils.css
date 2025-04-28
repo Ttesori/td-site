@@ -26,9 +26,11 @@
   --text-base: 1rem;
   --text-base-lg: 1.1rem;
   --text-lg: 1.2rem;
+  --text-lg-2: 1.35rem;
   --text-xl: 1.5rem;
   --text-2xl: 2rem;
   --text-3xl: 3rem;
+  --text-4xl: 4rem;
 
   /* Leading */
   --leading: 1.5;
@@ -162,6 +164,16 @@
   padding-right: var(--space-4);
 }
 
+.px-8 {
+  padding-right: var(--space-8);
+  padding-left: var(--space-8);
+}
+
+.px-10 {
+  padding-right: var(--space-10);
+  padding-left: var(--space-10);
+}
+
 /* ======= TEXT ======= */
 .text-xs {
   font-size: var(--text-xs);
@@ -223,6 +235,10 @@
 }
 .text-white {
   color: var(--color-white);
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 .first-line {

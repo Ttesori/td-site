@@ -44,6 +44,15 @@
   width: 85%;
 }
 
+.accent--underline-accent {
+  display: block;
+  background: url('/img/accent-underline-accent.svg') no-repeat bottom center;
+  background-size: contain;
+  height: 1rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
 .accent--dots {
   display: inline-block;
   background: url('/img/accent-dots.svg') no-repeat center;
