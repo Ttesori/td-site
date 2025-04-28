@@ -14,7 +14,7 @@
   align-items: center;
   gap: var(--space-4);
   padding: var(--space-4) var(--space-3);
-  min-height: 28rem;
+  min-height: 95vh;
 }
 
 .hero__img {
@@ -117,7 +117,7 @@
   .hero .container {
     flex-direction: row;
     gap: var(--space-8);
-    min-height: 26rem;
+    min-height: 27rem;
   }
 }
 
