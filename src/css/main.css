@@ -53,7 +53,7 @@ body {
   text-align: center;
   margin: var(--space-4) auto;
   margin-bottom: var(--space-8);
-  max-width: 35rem;
+
   line-height: var(--line-height-sm);
 }
 
@@ -102,6 +102,5 @@ body {
 
 @media (min-width: 1024px) {
   .main_content__subtitle {
-    max-width: 50rem;
   }
 }

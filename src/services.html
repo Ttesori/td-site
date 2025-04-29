@@ -4,15 +4,17 @@ layout: layouts/base.html
 body_classes: services
 page_desc: "Thoughtful web, print, and ongoing design support for small businesses and nonprofits. Built to be
 approachable, accessible, and stress-free."
+preload: '
+<link rel="preload" as="image" href="/img/bkg-light.webp">'
 ---
 
 <section class="hero hero--light accent--border">
   <div class="container container--lg">
-    <div class="hero__img order-2">
+    <div class="hero__img">
       <img src="/img/hero-services.webp" alt="Image of a woman working on a computer" width="415" height="425"
         style="aspect-ratio: 415/425">
     </div>
-    <div class="hero__text order-1">
+    <div class="hero__text">
       <h2 class="hero__headline hero__headline--primary hero__headline--3xl">How I Can Help</h2>
       <span class="accent accent--underline-accent"></span>
       <p class="hero__copy"><span class="first-line">I work with small businesses and nonprofits</span> who are making a
@@ -25,12 +27,13 @@ approachable, accessible, and stress-free."
 </section>
 
 <main class="main_content accent--border">
-  <div class="container container--md">
+  <div class="container container--lg">
     <h2 class="main_content__title main_content__title--deco main_content__title--lg"><span
         class="accent accent--dots"></span> My Services
       <span class="accent accent--dots"></span>
     </h2>
-    <h3 class="main_content__subtitle"><span class="first-line">Whether you need a new website,</span> a refreshed sales
+    <h3 class="main_content__subtitle text-width-md"><span class="first-line">Whether you need a new website,</span> a
+      refreshed sales
       deck, or just a little extra help each month, I’m here to make it easier.
     </h3>
 

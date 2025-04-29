@@ -466,6 +466,18 @@
   display: none;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.text-width-md {
+  max-width: var(--break-md);
+}
+
 /* ======= MEDIA QUERIES ======= */
 @media (min-width: 480px) {
   .sm\:text-base {
