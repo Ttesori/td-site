@@ -41,7 +41,7 @@
 .hero__headline {
   margin: 1rem 0 0.5rem;
   font-family: var(--font-headline);
-  font-size: 2.65rem;
+  font-size: 2.5rem;
   font-weight: normal;
   text-align: center;
   color: var(--color-primary-dark);
@@ -133,9 +133,7 @@
   .hero .container {
     min-height: 28rem;
   }
-  .hero__headline {
-    font-size: 3.5rem;
-  }
+
   .hero__headline--deco .accent {
     display: block;
   }

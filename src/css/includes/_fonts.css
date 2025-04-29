@@ -22,7 +22,7 @@
 @font-face {
   font-display: swap;
   font-family: 'FeltThatRegular';
-  size-adjust: 140%;
+  size-adjust: 160%;
   src: url('../../fonts/FeltThat/font.woff2') format('woff2'),
     url('../../fonts/FeltThat/') format('woff');
 }

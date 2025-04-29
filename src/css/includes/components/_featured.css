@@ -47,15 +47,16 @@
 
 .featured__title {
   font-family: var(--font-headline);
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: normal;
   margin: var(--space-3) var(--space-2) var(--space-4);
   width: 100%;
   text-wrap: pretty;
+  line-height: 1.5;
 }
 
 .featured__title--sm {
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 
 .featured__title--deco {
@@ -66,7 +67,9 @@
   gap: var(--space-4);
 }
 
-.featured__title--deco .accent {
+.featured__title--deco .accent--star {
+  width: 2.75rem;
+  height: 2.75rem;
 }
 
 .featured__title--deco .accent--icon-checkbox {
@@ -91,9 +94,11 @@
 }
 .featured__subtitle--title {
   position: relative;
-  top: -0.5rem;
+  top: -0.75rem;
   font-family: var(--font-title);
   font-weight: bold;
+  margin: 0;
+  font-size: var(--text-lg);
 }
 
 .featured__subtitle strong {
@@ -174,11 +179,12 @@
 }
 .featured p a,
 .featured h3 a {
-  color: currentColor;
+  color: var(--color-primary-dark);
   transition: all 0.2s;
   display: inline-block;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+  font-weight: bold;
 }
 .featured--light p a,
 .featured--light h3 a {

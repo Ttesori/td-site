@@ -20,11 +20,10 @@ body {
   text-align: center;
   color: var(--color-primary);
   margin: var(--space-6) auto;
-  max-width: 35rem;
 }
 
 .main_content__title--lg {
-  font-size: var(--text-3xl-2);
+  font-size: var(--text-3xl);
 }
 
 .main_content__title--deco {
@@ -40,7 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-4);
 }
 
 .main_content__title--deco .accent {

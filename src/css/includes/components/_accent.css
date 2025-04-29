@@ -53,6 +53,10 @@
   margin: 0 auto;
 }
 
+.accent--underline-accent-sm {
+  height: 0.8rem;
+}
+
 .accent--dots {
   display: inline-block;
   background: url('/img/accent-dots.svg') no-repeat center;

@@ -27,7 +27,7 @@
   --break-xl: 1280px;
 
   /* Fonts */
-  --font-headline: 'FeltThatRegular', 'Times New Roman', serif;
+  --font-headline: 'FeltThatRegular', Georgia, 'Times New Roman', serif;
   --font-copy: 'Open Sans', Helvetica, Arial, sans-serif;
   --font-title: 'Roboto Slab', Georgia, 'Times New Roman', serif;
   --font-base-size: 16px;
