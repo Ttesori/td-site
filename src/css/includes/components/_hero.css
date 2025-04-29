@@ -27,9 +27,8 @@
 }
 
 .hero__img img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  min-height: 350px;
 }
 
 .hero__text {
@@ -65,7 +64,11 @@
   color: var(--color-primary);
 }
 
-.hero__headline--lg {
+.hero__headline--3xl {
+  font-size: var(--text-3xl);
+}
+
+.hero__headline--4xl {
   font-size: var(--text-4xl);
 }
 
@@ -125,10 +128,10 @@
 
 @media (min-width: 1024px) {
   .hero {
-    min-height: 31rem;
+    min-height: 29rem;
   }
   .hero .container {
-    min-height: 30rem;
+    min-height: 28rem;
   }
   .hero__headline {
     font-size: 3.5rem;

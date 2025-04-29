@@ -71,6 +71,10 @@
   margin-top: var(--space-6);
 }
 
+.btn--letter-spacing-normal {
+  letter-spacing: normal;
+}
+
 @media (min-width: 768px) {
   .btn--wide {
     padding: var(--space-3) var(--space-8);
@@ -85,5 +89,8 @@
   }
   .btn-group {
     width: 100%;
+  }
+  .btn--letter-spacing-normal {
+    letter-spacing: 1px;
   }
 }

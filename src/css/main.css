@@ -23,6 +23,10 @@ body {
   max-width: 35rem;
 }
 
+.main_content__title--lg {
+  font-size: var(--text-3xl-2);
+}
+
 .main_content__title--deco {
   display: flex;
   flex-direction: row;
