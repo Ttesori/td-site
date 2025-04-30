@@ -38,7 +38,7 @@ const openModalButtons = document.querySelectorAll('.open-modal-button');
 const closeModalButton = document.getElementById('modal-close');
 let lastFocusedElement;
 
-if (openModalButtons) {
+if (modal) {
   openModalButtons.forEach(button => {
     button.addEventListener('click', () => {
       lastFocusedElement = document.activeElement;
@@ -56,6 +56,7 @@ if (openModalButtons) {
       if (imgLink) {
         const a = document.createElement('a');
         a.setAttribute('href', imgLink);
+        a.setAttribute('target', '_blank');
         a.classList.add('modal__link');
         a.textContent = 'View Website';
 
@@ -117,3 +118,36 @@ function closeModal() {
     lastFocusedElement.focus(); // Return focus to the button/image that opened the modal
   }
 }
+
+const faqButtons = document.querySelectorAll('.faq__question-btn');
+console.log(faqButtons);
+
+if (faqButtons) {
+  // Initially close all
+  faqButtons.forEach((btn) => {
+    btn.setAttribute('aria-expanded', 'false');
+    const answerId = btn.getAttribute('aria-controls');
+    const answerEl = document.querySelector(`.${answerId}`);
+    answerEl.classList.remove('faq__answer--open');
+    answerEl.classList.add('faq__answer--closed');
+
+
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+
+      // Toggle this one
+      if (!expanded) {
+        btn.setAttribute('aria-expanded', 'true');
+        answerEl.classList.add('faq__answer--open');
+        answerEl.classList.remove('faq__answer--closed');
+      } else {
+        btn.setAttribute('aria-expanded', 'false');
+        answerEl.classList.remove('faq__answer--open');
+        answerEl.classList.add('faq__answer--closed');
+      }
+    });
+  });
+}
+
+
+

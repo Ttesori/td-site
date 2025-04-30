@@ -99,6 +99,21 @@
   height: 4.5rem;
 }
 
+.accent--icon-checkbox-accent {
+  background: url('/img/icon-checkbox-accent.svg') no-repeat;
+  background-position: 0 0.5rem;
+  background-size: contain;
+  width: 4rem;
+  height: 3.5rem;
+}
+
+.accent--icon-imagine {
+  background: url('/img/icon-imagine.svg') no-repeat;
+  background-size: contain;
+  width: 4.5rem;
+  height: 5.5rem;
+}
+
 .accent--icon-sparkle {
   background: url('/img/icon-sparkle-accent-dark.svg') no-repeat;
   background-position: 0 0.5rem;

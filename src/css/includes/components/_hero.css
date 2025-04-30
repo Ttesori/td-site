@@ -124,6 +124,9 @@
     gap: var(--space-8);
     min-height: 27rem;
   }
+  .hero--flex-2 {
+    flex: 2;
+  }
 }
 
 @media (min-width: 1024px) {

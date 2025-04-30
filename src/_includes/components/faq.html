@@ -1,0 +1,13 @@
+<div class="faq__list">
+  {% for item in faqItems %}
+  <div class="faq__question">
+    <button aria-expanded="false" class="faq__question-btn" aria-controls="answer-{{ item.id }}"
+      id="accordion-{{ item.id }}">{{ item.question }} </button>
+    <div class="faq__answer answer-{{ item.id }} faq__answer--open" role="region"
+      aria-labelledby="accordion-{{ item.id }}">{{ item.answer
+      |
+      safe }} </div>
+  </div>
+
+  {% endfor %}
+</div>
