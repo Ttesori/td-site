@@ -120,7 +120,6 @@ function closeModal() {
 }
 
 const faqButtons = document.querySelectorAll('.faq__question-btn');
-console.log(faqButtons);
 
 if (faqButtons) {
   // Initially close all

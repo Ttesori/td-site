@@ -95,8 +95,10 @@
   background: url('/img/icon-checkbox.svg') no-repeat;
   background-position: 0 0.5rem;
   background-size: contain;
-  width: 4rem;
-  height: 4.5rem;
+  width: 4.5rem;
+  height: 5rem;
+  position: relative;
+  top: -0.75rem;
 }
 
 .accent--icon-checkbox-accent {

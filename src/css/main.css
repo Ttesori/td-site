@@ -22,6 +22,10 @@ body {
   margin: var(--space-6) auto;
 }
 
+.main_content__title--mb3 {
+  margin-bottom: var(--space-3);
+}
+
 .main_content__title--lg {
   font-size: var(--text-3xl);
 }
@@ -32,6 +36,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: var(--space-8);
+}
+
+.main_content__title--decog4 {
+  gap: var(--space-4);
 }
 
 .main_content__title--deco-b {
