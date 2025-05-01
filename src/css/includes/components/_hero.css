@@ -127,15 +127,22 @@
   .hero--flex-2 {
     flex: 2;
   }
+  .hero .container--gap-lg {
+    gap: var(--space-12);
+  }
+
+  .hero .container--sm {
+    min-height: 0;
+  }
 }
 
 @media (min-width: 1024px) {
-  .hero {
+  /* .hero {
     min-height: 29rem;
   }
   .hero .container {
     min-height: 28rem;
-  }
+  } */
 
   .hero__headline--deco .accent {
     display: block;

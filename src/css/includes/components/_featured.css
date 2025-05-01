@@ -101,6 +101,11 @@
   font-size: var(--text-lg);
 }
 
+.featured__subtitle--strong {
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+
 .featured__subtitle strong {
   font-family: var(--font-title);
 }
@@ -180,6 +185,7 @@
   background: url('/img/accent-arrow-accent.svg') no-repeat top left;
   background-size: 2.5rem;
   background-position: -0.5rem 0;
+  font-size: var(--text-base-lg);
 }
 
 .featured__list strong {
@@ -271,6 +277,13 @@
 .featured__imagine .btn {
   margin-top: 1rem;
   gap: 0rem;
+}
+
+.featured__cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
