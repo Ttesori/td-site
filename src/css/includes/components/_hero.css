@@ -81,6 +81,10 @@
   font-weight: normal;
 }
 
+.hero__subtitle--bold {
+  font-weight: bold;
+}
+
 .hero__copy {
   text-align: center;
   text-wrap: pretty;

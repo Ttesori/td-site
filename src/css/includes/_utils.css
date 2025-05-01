@@ -230,6 +230,9 @@
 .text-accent {
   color: var(--color-accent);
 }
+.text-accent-light {
+  color: var(--color-accent-light);
+}
 .text-dark {
   color: var(--color-dark);
 }
@@ -352,6 +355,9 @@
 }
 .align-self-start {
   align-self: start;
+}
+.align-self-center {
+  align-self: center;
 }
 .h-auto {
   height: auto;
