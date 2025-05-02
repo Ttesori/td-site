@@ -162,6 +162,7 @@ body {
   border-radius: var(--space-6);
   display: flex;
   justify-content: space-between;
+  box-shadow: var(--shadow-subtle);
 }
 .feature__icon {
   width: 15%;

@@ -56,6 +56,15 @@
 
 .card--light {
   background: var(--color-lighter);
+  background: linear-gradient(
+    45deg,
+    rgba(246, 246, 245, 1) 0%,
+    rgba(252, 252, 251, 1) 100%
+  );
+}
+
+.card--shadow {
+  box-shadow: var(--shadow-subtle);
 }
 
 .card__headline {
@@ -138,7 +147,7 @@
   padding-bottom: 1.5rem;
   color: var(--color-primary-darker);
   max-width: var(--break-sm);
-  border: 1px solid var(--color-accent);
+  box-shadow: var(--shadow-subtle);
 }
 
 .card--pricing .card__header {
@@ -335,6 +344,7 @@
   background: var(--color-lighter);
   padding: var(--space-8);
   border-radius: var(--space-4);
+  margin-top: var(--space-6);
 }
 
 .service-cta h3 {
@@ -429,7 +439,7 @@
 @media (min-width: 980px) {
   .cards {
     flex-direction: row;
-    gap: var(--space-4);
+    gap: var(--space-6);
   }
 
   .cards--col {
