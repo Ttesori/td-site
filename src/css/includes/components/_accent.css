@@ -116,6 +116,25 @@
   height: 5.5rem;
 }
 
+.accent--credits {
+  background: url('/img/icon-credits.svg') no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5.5rem;
+  position: relative;
+  top: -1rem;
+}
+
+.accent--monthly {
+  background: url('/img/icon-monthly-2.svg') no-repeat;
+  background-size: contain;
+  width: 4.75rem;
+  height: 5.5rem;
+  position: relative;
+  top: -0.5rem;
+  margin-right: 0.5rem;
+}
+
 .accent--icon-sparkle {
   background: url('/img/icon-sparkle-accent-dark.svg') no-repeat;
   background-position: 0 0.5rem;

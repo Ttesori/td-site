@@ -213,6 +213,7 @@
   flex-wrap: wrap;
   column-gap: 4rem;
   margin: var(--space-8) auto var(--space-2);
+  justify-content: center;
 }
 
 .expect-list__list,
@@ -253,7 +254,7 @@
 }
 
 .expect-list h3 {
-  flex: 100%;
+  flex: 0 0 100%;
   text-align: center;
   color: var(--color-primary);
   font-size: var(--text-xl);
@@ -329,6 +330,12 @@
   margin-bottom: 2rem;
 }
 
+.service-cta--lighter {
+  background: var(--color-lighter);
+  padding: var(--space-8);
+  border-radius: var(--space-4);
+}
+
 .service-cta h3 {
   font-size: var(--text-xl);
   font-family: var(--font-title);
@@ -338,7 +345,6 @@
   position: relative;
   margin-left: 5rem;
   margin-bottom: 1.25rem;
-  width: 80%;
 }
 
 .service-cta h3::before {
@@ -350,6 +356,19 @@
   position: absolute;
   left: -5.5rem;
   top: -2.25rem;
+  filter: drop-shadow(0 0 1rem #fff);
+}
+
+.service-cta .headline--credits::before {
+  background-image: url('/img/icon-credits-2.svg');
+  width: 6rem;
+  height: 5rem;
+  left: -6.5rem;
+  top: -1.75rem;
+}
+
+.service-cta .headline--credits {
+  margin-left: 6.5rem;
 }
 
 .service-cta p {
@@ -396,7 +415,13 @@
     font-size: var(--text-base-sm);
   }
   .expect-list__list li {
-    flex: 0 0 48%;
+    flex: 0 0 45%;
+  }
+  .expect-list h3 {
+    flex: 0 0 80%;
+  }
+  .service-cta h3 {
+    width: 80%;
   }
 }
 
