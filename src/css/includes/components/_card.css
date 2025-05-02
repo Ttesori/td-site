@@ -138,6 +138,7 @@
   padding-bottom: 1.5rem;
   color: var(--color-primary-darker);
   max-width: var(--break-sm);
+  border: 1px solid var(--color-accent);
 }
 
 .card--pricing .card__header {
