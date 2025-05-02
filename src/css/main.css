@@ -16,7 +16,8 @@ body {
 .main_content__title {
   font-family: var(--font-headline);
   font-weight: normal;
-  font-size: var(--text-3xl);
+  font-size: 2.75rem;
+  line-height: 1.4;
   text-align: center;
   color: var(--color-primary);
   margin: var(--space-6) auto;
@@ -60,12 +61,16 @@ body {
   text-align: center;
   margin: var(--space-4) auto;
   margin-bottom: var(--space-8);
-
   line-height: var(--line-height-sm);
 }
 
 .main_content__subtitle strong {
   font-family: var(--font-title);
+}
+
+.main_content__subtitle--title {
+  font-family: var(--font-title);
+  font-weight: bold;
 }
 
 .main_content__img {
@@ -243,7 +248,7 @@ body {
 }
 
 .inspo {
-  padding: var(--space-10);
+  padding: var(--space-10) var(--space-6);
   min-height: 15rem !important;
 }
 .inspo__container {
@@ -287,6 +292,9 @@ body {
     text-align: left;
     padding: 1.25rem 1.5rem;
     gap: var(--space-6);
+  }
+  .inspo {
+    padding: var(--space-10);
   }
   .inspo__container {
     flex-direction: row;

@@ -19,7 +19,7 @@ accessibility and performance in mind."
       <p class="hero__copy"><span class="first-line">I support small businesses and nonprofits</span> by turning
         your ideas into effective websites and intentional design — giving you back the time & energy to focus on what
         you do best.<br>
-        <a class="hero__btn btn btn--wide btn--primary-dark btn--deco btn--deco-wide" href="#"><span
+        <a class="hero__btn btn btn--wide btn--primary-dark btn--deco btn--deco-wide" href="/services"><span
             class="accent accent--star"></span>
           See How I Can Help</a>
       </p>
@@ -71,7 +71,7 @@ accessibility and performance in mind."
           affordable, and
           centered around your
           goals. Built for speed, reliability, and fewer headaches.</p>
-        <a href="#" class="btn btn--accent btn--deco card__btn">
+        <a href="/services/web-design" class="btn btn--accent btn--deco card__btn">
           <span>See websites </span><span class="accent accent--arrow-sm"></span></a>
       </article>
 
@@ -83,7 +83,7 @@ accessibility and performance in mind."
         <p class="card__copy"><span class="first-line"> From flyers to funding proposals,</span> print and digital
           materials that
           communicate clearly, reflect your brand, and support your goals.</p>
-        <a href="#" class="btn btn--accent  btn--deco card__btn"><span>See design </span><span
+        <a href="/services/print-digital" class="btn btn--accent  btn--deco card__btn"><span>See design </span><span
             class="accent accent--arrow-sm"></span></a>
       </article>
 
@@ -95,7 +95,7 @@ accessibility and performance in mind."
           projects, from
           fresh graphics to website tweaks
           and everything in between.</p>
-        <a href="#" class="btn btn--accent  btn--deco card__btn"><span>See support </span><span
+        <a href="/services/design-support" class="btn btn--accent  btn--deco card__btn"><span>See support </span><span
             class="accent accent--arrow-sm"></span></a>
       </article>
     </div>
@@ -197,13 +197,4 @@ accessibility and performance in mind."
   </div>
 </aside>
 
-<!-- Portfolio Modal -->
-<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-heading"
-  aria-describedby="modal-description">
-  <div class="modal-content" role="document">
-    <button id="modal-close" class="modal-close" aria-label="Close Modal" tabindex="-1">×</button>
-    <img id="modal-image" src="" alt="" />
-    <h3 id="modal-heading" class="modal__heading">Portfolio Item</h3>
-    <p id="modal-description" class="modal__description"></p>
-  </div>
-</div>
+{% include "components/modal.html" %}

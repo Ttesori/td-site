@@ -85,6 +85,9 @@
 .mr-4 {
   margin-right: var(--space-4);
 }
+.mb-2 {
+  margin-bottom: var(--space-2);
+}
 .mt-0 {
   margin-top: 0;
 }
@@ -156,6 +159,9 @@
 
 .pt-4 {
   padding-top: var(--space-4);
+}
+.pb-2 {
+  padding-bottom: var(--space-2);
 }
 .pb-4 {
   padding-bottom: var(--space-4);
@@ -441,6 +447,10 @@
 
 .container {
   margin: 0 auto;
+}
+
+.container--sm {
+  max-width: var(--break-sm);
 }
 
 .container--md {
