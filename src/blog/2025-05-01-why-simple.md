@@ -1,10 +1,9 @@
 ---
 title: 'Why “Simple” Doesn’t Always Mean Easy'
 date: 2025-05-02
-layout: layouts/single-post.html
-tags: post
-permalink: '/posts/why-simple-doesnt-always-mean/'
-post_img: '/img/posts/its-simple.webp'
+permalink: '/blog/why-simple-doesnt-always-mean/'
+post_img: /img/posts/its-simple.webp
+post_imgAlt: 'Scrabble tiles spelling out the words Its Simple'
 categories:
   - Design
 ---

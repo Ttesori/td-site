@@ -17,6 +17,12 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter("date", (dateObj, format = "MMMM d, yyyy") => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(format);
   });
+  eleventyConfig.addFilter("truncate", function (content, length, useEllipsis = false) {
+    if (content.length <= length) {
+      return content;
+    }
+    return content.slice(0, length) + (useEllipsis ? "…" : "");
+  });
 
 
   return {

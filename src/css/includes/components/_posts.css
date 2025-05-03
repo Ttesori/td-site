@@ -38,6 +38,10 @@
   line-height: 1.3;
 }
 
+.post__body h3 {
+  color: var(--color-primary-med);
+}
+
 .post__title {
   max-width: 30rem;
   margin: 1.5rem auto;
@@ -88,4 +92,130 @@
 .post__cta p {
   font-style: italic;
   margin-top: 0.5rem;
+}
+
+.blog-list {
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2rem auto;
+  padding: var(--space-10) var(--space-4);
+}
+
+.blog-list__snippet {
+  flex: 0 0 48%;
+  min-height: 0;
+}
+
+.snippet__img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  border: 1px solid #ccc;
+}
+.snippet__title {
+  text-align: left;
+  margin: 1.5rem 0 0.5rem;
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  padding-bottom: 0.25rem;
+  transition: all 0.2s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  line-height: 1.3;
+}
+
+.snippet__title a {
+  text-decoration: none;
+  display: block;
+}
+
+.snippet__title:hover {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.blog-list__snippet .snippet__btn {
+  align-self: center;
+  font-size: var(--text-sm);
+}
+
+.snippet__excerpt {
+  text-align: left;
+  margin-top: 0;
+}
+
+.snippet__excerpt::first-line {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+.blog-list__snippet .snippet__btn:hover {
+}
+
+.spotlight__picture {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 45%;
+  border: 0.5rem solid White;
+  box-shadow: var(--shadow-subtle);
+  position: relative;
+}
+.spotlight__img {
+  min-height: 100%;
+  width: 100%;
+  border-radius: 45%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.spotlight__title {
+  font-family: var(--font-title);
+  font-size: var(--text-2xl);
+  margin-bottom: 1.25rem;
+}
+
+.spotlight__title a {
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.2s;
+  display: block;
+}
+
+.spotlight__title a:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.blog__spotlight .container {
+  min-height: 0;
+  text-align: center;
+}
+
+.spotlight__copy::first-line {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+.blog__spotlight .snippet_btn {
+}
+.spotlight__img-overlay {
+  background: url('/img/overlay-blog.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.blog .post__cta a {
+  color: var(--color-accent-dark);
+  transition: all 0.2s;
+}
+
+.blog .post__cta a:hover {
+  color: var(--color-primary-med);
 }

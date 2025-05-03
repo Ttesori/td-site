@@ -1,12 +1,47 @@
 ---
 title: "Web Design, Graphic Design & Support Services for Nonprofits & Small Businesses"
 layout: layouts/base.html
-
+body_classes: blog
 ---
 
-<h1>Blog</h1>
-<ul class="blog-list">
-  {%- for post in collections.post -%}
-  <li>{{ post.data.title }}</li>
+{% set featured = collections.post[0] %}
+<section class="hero hero--light blog__spotlight accent--border">
+  <div class="container container--lg">
+    <picture class="spotlight__picture">
+      <span class="spotlight__img-overlay"></span>
+      <img src="{{featured.data.post_img}}" alt="{{featured.data.post_imgAlt}}" class="spotlight__img">
+    </picture>
+    <div class="hero__text spotlight__text">
+      <h2 class="hero__headline hero__headline--primary spotlight__title"><a
+          href="{{featured.url}}">{{featured.data.title}}</a></h2>
+      <span class="accent accent--underline-accent"></span>
+      <p class="hero__copy spotlight__copy">{{ featured.templateContent | striptags | truncate(250, true, '...') }}</p>
+      <a class="btn btn--accent snippet__btn btn--wide" href="{{featured.url}}">Read More...</a>
+    </div>
+  </div>
+</section>
+
+
+
+</section>
+<section class="blog-list cards container container--lg">
+  {%- for post in collections.post.slice(1) -%}
+  <article class="blog-list__snippet card card--light card--shadow">
+
+    <a href="{{ post.url }}"><img src="{{ post.data.post_img }}" alt="{{post.data.post__imgAlt}}"
+        class="snippet__img"></a>
+    <h3 class="snippet__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <p class="snippet__excerpt">{{ post.templateContent | striptags | truncate(275, true, '...') }}</p>
+    <a class="btn btn--accent snippet__btn btn--wide" href="{{ post.url }}">Read More...</a>
+  </article>
   {%- endfor -%}
-</ul>
+</section>
+
+<footer class="post__footer container container--md">
+  <span class="accent--underline-accent"></span>
+  <div class="post__cta">
+    <h3>Thanks for spending a little time here. </h3>
+    <p>I send occasional notes with gentle design tips and cozy recommendations.<br> <a href="#">Join the mailing
+        list</a> or <a href="/contact">say hello</a> if you’d like to stay connected.</p>
+  </div>
+</footer>
