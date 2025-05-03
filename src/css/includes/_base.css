@@ -43,7 +43,15 @@
 html {
   font-size: var(--font-base-size);
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 p {
   line-height: var(--line-height);
   text-wrap: pretty;

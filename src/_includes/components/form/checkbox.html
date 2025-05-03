@@ -1,0 +1,11 @@
+<fieldset class="form-group form-group--checked">
+  <legend class="form-group__label">{{field.label}}</legend>
+
+  {% for option in field.options %}
+  <div class="checked-list__option">
+    <input type="checkbox" id="{{option.name}}" name="{{option.name}}" />
+    <label for="{{option.name}}">{{option.label}}</label>
+  </div>
+  {% endfor %}
+
+</fieldset>

@@ -1,0 +1,9 @@
+<div class="form-group">
+  <label for="{{field.name}}" class="form-group__label">{{ field.label }}
+
+    {% if field.label_exp %} <span class="label__meta">{{field.label_exp}}</span> {% endif %}
+  </label>
+  <input type="{{field.type}}" name="{{field.name}}" id="{{field.name}}" placeholder="{{field.placeholder}}"
+    class="form-group__input form-group__input--text">
+
+</div>

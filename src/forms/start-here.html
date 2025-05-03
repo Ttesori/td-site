@@ -1,0 +1,97 @@
+<main class="main_content container container--sm">
+  <h2 class="main_content__title main_content__title--deco main_content__title--lg"><span class="accent accent--dots"></span> Start Here
+    <span class="accent accent--dots"></span>
+  </h2>
+  <h3 class="main_content__subtitle text-width-md"><span class="first-line">If you’re ready to move forward </span>
+    (even if you're not sure with what), I'm ready to help. Fill out the form below and I'll do my best to reply within
+    a couple of business days.
+  </h3>
+
+  <form name="start-here" netlify class="form generic-form start-here">
+
+    {% set field = {
+    name: 'name',
+    label: 'Your Name',
+    placeholder: 'Your Name',
+    type: 'text'
+    } %}
+    {% include "components/form/input.html" %}
+
+    {% set field = {
+    name: 'org-name',
+    label: 'Organization Name',
+    placeholder: 'Organization Name',
+    type: 'text'
+    } %}
+    {% include "components/form/input.html" %}
+
+    {% set field = {
+    name: 'email',
+    label: 'Email Address',
+    placeholder: 'hello@somewhere.com',
+    type: 'email'
+    } %}
+    {% include "components/form/input.html" %}
+
+    {% set field = {
+    name: 'website',
+    label: 'Website URL',
+    placeholder: 'If you have one!',
+    type: 'text'
+    } %}
+    {% include "components/form/input.html" %}
+
+    {% set field = {
+    name: 'work-type',
+    label: 'What kind of project are you interested in?',
+    options: [{
+    name: 'web',
+    label:'Website Design'
+    }, {
+    name: 'print',
+    label:'Print + Digital'
+    }, {
+    name: 'ongoing',
+    label:'Ongoing Support'
+    }]
+    } %}
+    {% include "components/form/checkbox.html" %}
+
+    {% set field = {
+    name: 'project',
+    label: 'Tell me a little about what you’re working on!',
+    placeholder: "A few sentences about your project goals, what you’re hoping to create, or what’s been on your mind."
+    } %}
+    {% include "components/form/textarea.html" %}
+
+    {% set field = {
+    name: 'have-branding',
+    label: 'Do you have branding (logo, colors, fonts) ready to go?',
+    options: [{
+    name: 'yes',
+    label:'Yes, I\'m all set'
+    }, {
+    name: 'some',
+    label:'I have some branding but might need help'
+    }, {
+    name: 'no',
+    label:'No, I\'d need help with that too'
+    }]
+    } %}
+    {% include "components/form/radio.html" %}
+
+    {% set field = {
+    name: 'anything-else',
+    label: 'Anything else you\'d like to share about your project or how you like to work? ',
+    placeholder: "Optional: anything you want me to know about your timeline, communication style, or what would make this process feel easy for you."
+    } %}
+    {% include "components/form/textarea.html" %}
+
+
+    <button class="btn btn--accent btn--deco btn--wide btn--bg-dark"><span>Send
+        Form</span>
+      <span class="accent accent--arrow"></span></button>
+
+
+  </form>
+</main>

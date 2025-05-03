@@ -1,0 +1,9 @@
+<fieldset class="form-group form-group--radio">
+  <legend class="form-group__label">{{field.label}}</legend>
+  {% for option in field.options %}
+  <div class="checked-list__option">
+    <input type="radio" id="{{option.name}}" name="{{field.name}}" value="{{option.name}}" />
+    <label for="{{opton.name}}">{{option.label}}</label>
+  </div>
+  {% endfor %}
+</fieldset>

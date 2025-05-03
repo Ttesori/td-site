@@ -1,0 +1,9 @@
+<label for="{{field.name}}">{{field.label}}</label>
+
+<select name="{{field.name}}" id="{{field.name}}">
+  <option value="">--Please choose an option--</option>
+  {% for option in field.options %}
+  <option value="{{option.name}}">{{option.label}}</option>
+  {% endfor %}
+
+</select>
