@@ -23,6 +23,7 @@
   align-items: center;
   padding: var(--space-2) 0;
   max-width: 28rem;
+  min-height: 20rem;
 }
 
 .hero__img img {
