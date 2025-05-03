@@ -1,0 +1,92 @@
+.landing .nav,
+.landing .footer__logo {
+  display: none;
+}
+
+.landing .header__container {
+  justify-content: center;
+}
+
+.landing .footer .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing .copyright,
+.landing .copyright p {
+  text-align: center;
+}
+
+.landing .ml-form-embedWrapper {
+  background: none !important;
+}
+
+.mailing-list .hero__copy {
+  margin-bottom: 0;
+}
+
+#mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  h4,
+#mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  h4 {
+  font-family: var(--font-title) !important;
+  color: var(--color-primary-med) !important;
+  text-align: center !important;
+  margin-top: 1rem;
+  font-weight: bold !important;
+}
+
+#mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p,
+#mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p {
+  text-align: center !important;
+  font-family: var(--font-copy) !important;
+  font-size: var(--text-base) !important;
+  font-style: italic;
+  color: var(--color-dark) !important;
+  line-height: 1.4 !important;
+}
+
+.mailing-list
+  #mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button {
+  font-family: var(--font-title) !important;
+  padding: var(--space-3) var(--space-4) !important;
+  border-radius: var(--space-4) !important;
+  transition: all 0.2s;
+  background: var(--color-accent) !important;
+  color: var(--color-primary-darker) !important;
+  font-size: var(--text-base) !important;
+}
+
+.mailing-list
+  #mlb2-25435802.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button:hover {
+  background: var(--color-accent) !important;
+  filter: contrast(120%) !important;
+}
+
+@media (min-width: 768px) {
+  .landing .logo {
+    max-width: 500px;
+  }
+}
