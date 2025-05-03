@@ -1,3 +1,7 @@
+form label {
+  color: var(--color-primary-dark);
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,9 @@
 }
 
 @media (min-width: 768px) {
+  form label {
+    color: var(--color-primary-med);
+  }
   .form {
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,4 +78,12 @@
   .form-group--textarea {
     flex: 3;
   }
+}
+
+.contact .form__msg {
+  display: none;
+}
+
+.contact .form .btn-group {
+  margin-top: 0;
 }
