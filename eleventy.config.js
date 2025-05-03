@@ -1,5 +1,5 @@
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
-
+import { DateTime } from "luxon";
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -10,6 +10,14 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPlugin(lightningCSS);
   eleventyConfig.addWatchTarget("src/js");
+
+  eleventyConfig.addCollection("post", function (collectionApi) {
+    return collectionApi.getFilteredByTag("post");
+  });
+  eleventyConfig.addFilter("date", (dateObj, format = "MMMM d, yyyy") => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(format);
+  });
+
 
   return {
     htmlTemplateEngine: "njk"

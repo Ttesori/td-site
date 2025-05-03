@@ -1,0 +1,12 @@
+---
+title: "Web Design, Graphic Design & Support Services for Nonprofits & Small Businesses"
+layout: layouts/base.html
+
+---
+
+<h1>Blog</h1>
+<ul class="blog-list">
+  {%- for post in collections.post -%}
+  <li>{{ post.data.title }}</li>
+  {%- endfor -%}
+</ul>
