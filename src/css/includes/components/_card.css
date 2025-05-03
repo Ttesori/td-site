@@ -14,7 +14,6 @@
 .card {
   padding: var(--space-8) var(--space-6);
   border-radius: var(--space-9);
-
   text-align: center;
 }
 
@@ -454,7 +453,6 @@
   }
   .card {
     padding: var(--space-6);
-    min-height: 17rem;
     display: flex;
     flex-direction: column;
     flex: 1;

@@ -1,11 +1,9 @@
 .featured {
   font-size: var(--text-base);
   position: relative;
-  min-height: 23rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 23rem;
   text-align: center;
   padding: var(--space-10) var(--space-6) var(--space-12);
 }
@@ -294,10 +292,14 @@
   filter: drop-shadow(0 0 0.5rem rgb(0 0 0 / 0.3));
 }
 
+.featured--primary form label {
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .featured {
-    min-height: 22rem;
     font-size: 1.1em;
+    padding: var(--space-12) var(--space-8);
   }
 
   .featured__icon {

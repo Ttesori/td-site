@@ -131,7 +131,7 @@ main a:hover {
 .features-list {
   display: flex;
   gap: var(--space-4);
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   margin: 0;
   flex-wrap: wrap;
@@ -164,7 +164,7 @@ main a:hover {
 }
 
 .feature {
-  width: 100%;
+  flex: 0 0 100%;
   background: var(--color-lighter);
   padding: var(--space-4);
   list-style: none;
@@ -221,6 +221,7 @@ main a:hover {
   font-size: var(--text-sm);
   font-style: italic;
   font-weight: bold;
+  flex: 0 0 44%;
 }
 
 .feature__pricing strong {
@@ -323,7 +324,7 @@ main a:hover {
     width: 75%;
   }
   .feature {
-    width: 48%;
+    flex: 0 0 44%;
     flex-direction: row;
   }
   .features-list--col .feature {

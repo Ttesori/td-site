@@ -67,10 +67,6 @@
   outline-offset: 2px;
 }
 
-.btn-group {
-  margin-top: var(--space-6);
-}
-
 .btn--letter-spacing-normal {
   letter-spacing: normal;
 }
