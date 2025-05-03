@@ -1,6 +1,6 @@
 ---
 title: 'Why “Simple” Doesn’t Always Mean Easy'
-date: 2025-05-02
+date: 2025-05-01
 permalink: '/blog/why-simple-doesnt-always-mean/'
 post_img: /img/posts/its-simple.webp
 post_imgAlt: 'Scrabble tiles spelling out the words Its Simple'
@@ -8,7 +8,7 @@ categories:
   - Design
 ---
 
-**When a client says, “I just need something simple,”** I always smile because I get it. You’re not looking for flashy. You just want something that works, feels right, and doesn’t take three meetings to figure out. But here’s the thing: simple isn’t always easy. And making something feel effortless often takes... well, effort.
+When a client says, “I just need something simple,” I always smile because I get it. You’re not looking for flashy. You just want something that works, feels right, and doesn’t take three meetings to figure out. But here’s the thing: simple isn’t always easy. And making something feel effortless often takes... well, effort.
 
 ### Simplicity Takes Strategy
 

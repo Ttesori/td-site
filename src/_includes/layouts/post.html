@@ -2,33 +2,32 @@
 layout: layouts/base.html
 ---
 
-<div class="body__content">
-  <header class="post__header accent--border">
-    <picture class="post__picture">
-      <img src="{{ post_img }}" class="post__img" alt="{{ post_imgAlt }}">
-    </picture>
 
-  </header>
-  <section class="post container container--md">
-    <h2 class="post__title">{{ title }}</h2>
+<header class="post__header accent--border">
+  <picture class="post__picture">
+    <img src="{{ post_img }}" class="post__img" alt="{{ post_imgAlt }}">
+  </picture>
+
+</header>
+<section class="post container container--md">
+  <h2 class="post__title">{{ title }}</h2>
+  <span class="accent--underline-accent"></span>
+  <aside class="post__meta">
+    Posted {{ date | date('MMMM d, yyyy') }} {% if categories %} <span class="post__categories">in {% for category
+      in categories %} {{
+      category }} {% endfor %}</span> {% endif
+    %}
+  </aside>
+  <div class="post__body">
+    {{ content | safe }}
+  </div>
+
+  <footer class="post__footer container container--sm">
     <span class="accent--underline-accent"></span>
-    <aside class="post__meta">
-      Posted {{ date | date('MMMM d, yyyy') }} {% if categories %} <span class="post__categories">in {% for category
-        in categories %} {{
-        category }} {% endfor %}</span> {% endif
-      %}
-    </aside>
-    <div class="post__body">
-      {{ content | safe }}
+    <div class="post__cta">
+      <h3>Enjoyed this post?</h3>
+      <p>I send occasional notes with gentle design tips and cozy recommendations.<br> <a href="#">Join the mailing
+          list</a> if you’d like to stay in touch.</p>
     </div>
-
-    <footer class="post__footer container container--sm">
-      <span class="accent--underline-accent"></span>
-      <div class="post__cta">
-        <h3>Enjoyed this post?</h3>
-        <p>I send occasional notes with gentle design tips and cozy recommendations.<br> <a href="#">Join the mailing
-            list</a> if you’d like to stay in touch.</p>
-      </div>
-    </footer>
-  </section>
-</div>
+  </footer>
+</section>

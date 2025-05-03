@@ -1,10 +1,13 @@
 ---
-title: "Web Design, Graphic Design & Support Services for Nonprofits & Small Businesses"
+title: "Cozy Design Tips, Encouragement, and Resources for Nonprofits & Small Businesses"
+page_desc: "Thoughtful design ideas, cozy updates, and creative encouragement for small businesses, nonprofits, and kind
+humans doing good work."
 layout: layouts/base.html
 body_classes: blog
 ---
 
-{% set featured = collections.post[0] %}
+{% set posts = collections.post | reverse %}
+{% set featured = posts[0] %}
 <section class="hero hero--light blog__spotlight accent--border">
   <div class="container container--lg">
     <picture class="spotlight__picture">
@@ -15,7 +18,7 @@ body_classes: blog
       <h2 class="hero__headline hero__headline--primary spotlight__title"><a
           href="{{featured.url}}">{{featured.data.title}}</a></h2>
       <span class="accent accent--underline-accent"></span>
-      <p class="hero__copy spotlight__copy">{{ featured.templateContent | striptags | truncate(250, true, '...') }}</p>
+      <p class="hero__copy spotlight__copy">{{ featured.templateContent | striptags | truncate(275, true, '...') }}</p>
       <a class="btn btn--accent snippet__btn btn--wide" href="{{featured.url}}">Read More...</a>
     </div>
   </div>
@@ -25,7 +28,7 @@ body_classes: blog
 
 </section>
 <section class="blog-list cards container container--lg">
-  {%- for post in collections.post.slice(1) -%}
+  {%- for post in posts.slice(1) -%}
   <article class="blog-list__snippet card card--light card--shadow">
 
     <a href="{{ post.url }}"><img src="{{ post.data.post_img }}" alt="{{post.data.post__imgAlt}}"
