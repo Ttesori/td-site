@@ -161,7 +161,7 @@
   width: 20rem;
   height: 20rem;
   object-fit: cover;
-  border-radius: 45%;
+  border-radius: 50%;
   border: 0.5rem solid White;
   box-shadow: var(--shadow-subtle);
   position: relative;
@@ -169,7 +169,7 @@
 .spotlight__img {
   min-height: 100%;
   width: 100%;
-  border-radius: 45%;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center center;
 }
@@ -215,6 +215,7 @@
   right: 0;
   bottom: 0;
   z-index: 99;
+  filter: drop-shadow(0 0 0.5rem #fff);
 }
 
 .blog .post__cta a {
