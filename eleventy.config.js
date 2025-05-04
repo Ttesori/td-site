@@ -5,9 +5,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
   eleventyConfig.setOutputDirectory("public");
   eleventyConfig.addPassthroughCopy("src/img");
-  //eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPlugin(lightningCSS);
   eleventyConfig.addWatchTarget("src/js");
 
