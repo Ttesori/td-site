@@ -23,8 +23,6 @@ export default async function (eleventyConfig) {
     }
     return content.slice(0, length) + (useEllipsis ? "…" : "");
   });
-  eleventyConfig.addGlobalData('layout', 'layouts/base.html');
-
 
   return {
     htmlTemplateEngine: "njk"
