@@ -87,6 +87,15 @@
   margin-bottom: 0.5rem;
 }
 
+.post__body li {
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+.post__body ul {
+  margin-top: -0.5rem;
+}
+
 .post__footer {
   padding-bottom: 3rem;
 }
