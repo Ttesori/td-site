@@ -1,5 +1,7 @@
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import { DateTime } from "luxon";
+import markdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -23,6 +25,14 @@ export default async function (eleventyConfig) {
     }
     return content.slice(0, length) + (useEllipsis ? "…" : "");
   });
+
+  const markdownItOptions = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
+  eleventyConfig.setLibrary('md', markdownLib);
 
   return {
     htmlTemplateEngine: "njk"
