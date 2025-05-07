@@ -17,3 +17,9 @@ collections:
       - { label: 'Image Alt Text', name: 'post_imgAlt', widget: 'string' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Post Body', name: 'body', widget: 'markdown' }
+      - {
+          label: 'permalink',
+          name: 'permalink',
+          widget: 'hidden',
+          default: '/{{ title | slugify }}/',
+        }
