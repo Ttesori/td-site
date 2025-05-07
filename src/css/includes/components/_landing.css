@@ -60,7 +60,7 @@
   line-height: 1.4 !important;
 }
 
-.mailing-list
+.body__content
   #mlb2-25435802.ml-form-embedContainer
   .ml-form-embedWrapper
   .ml-form-embedBody
@@ -75,7 +75,7 @@
   font-size: var(--text-base) !important;
 }
 
-.mailing-list
+.body__content
   #mlb2-25435802.ml-form-embedContainer
   .ml-form-embedWrapper
   .ml-form-embedBody
