@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: 'src/img/uploads'
-public_folder: 'https://tesoridesign.com/img/uploads'
 publish_mode: editorial_workflow
+media_folder: src/img/uploads
+public_folder: /img/uploads
 collections:
   - name: 'blog'
     label: 'Blog'
