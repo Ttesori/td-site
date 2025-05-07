@@ -1,13 +1,12 @@
 ---
-title: 'Why “Simple” Doesn’t Always Mean Easy'
+title: Why “Simple” Doesn’t Always Mean Easy
 date: 2025-05-01
-permalink: '/blog/why-simple-doesnt-always-mean/'
+permalink: /blog/why-simple-doesnt-always-mean/
 post_img: /img/posts/its-simple.webp
-post_imgAlt: 'Scrabble tiles spelling out the words Its Simple'
+post_imgAlt: Scrabble tiles spelling out the words Its Simple
 categories:
   - Design
 ---
-
 When a client says, “I just need something simple,” I always smile because I get it. You’re not looking for flashy. You just want something that works, feels right, and doesn’t take three meetings to figure out. But here’s the thing: simple isn’t always easy. And making something feel effortless often takes... well, effort.
 
 ### Simplicity Takes Strategy
@@ -35,3 +34,5 @@ That feeling is powerful. And it does not happen by accident.
 **The next time you find yourself thinking,** "this looks so simple," there is a good chance someone worked very hard to make it feel that way.
 
 Simplicity is not about doing less. It is about doing the right things, on purpose, with care.
+
+![](https://tesoridesign.com/img/uploads/copy-of-brand-guidelines-template.png)
