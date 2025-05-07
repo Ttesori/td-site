@@ -9,7 +9,7 @@ categories:
 ---
 You know that feeling when you look at your website and think, "ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!" 
 
-I get it: all those little tasks pile up into a big mountain of overwhelm. It's suuuper tempting to believe you need a complete do-over; to burn it all down and start fresh with something new and shiny and unbroken. 
+I get it: **all those little tasks pile up into a big mountain of overwhelm.** It's suuuper tempting to believe you need a complete do-over; to burn it all down and start fresh with something new and shiny and unbroken. 
 
 ### The Web Designer's Secret
 
@@ -25,22 +25,21 @@ You'll probably want to take notes in a notebook or in your Notes app as you mov
 **Note:** *If you get overwhelmed, I would be happy to help you with any of these and more - just fill out the [Start Here form](/forms/start-here) and I'll get to work*
 
 #### Test your site on your phone
-In the US, phone users make up [almost 50% of all web traffic](https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile), so having a website that works well on mobile is a must. 
+In the US, phone users make up [almost 50% of all web traffic](https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile), so **having a website that works well on mobile** is a must. 
 
 To start, **pull up your website on your phone and navigate through the pages**, paying attention to the following:
 
-1. Read your home page.
+1. **Read your home page.**
    - Is the text easy to read without pinching or zooming?
    - Does it feel like you have to squint, or is it comfortable?
-2. Tap every button you see.
+2. **Tap every button you see.**
    - Are buttons big enough to tap with a thumb?
    - Do they actually work? (Especially your main calls-to-action like "Donate," "Contact," etc.)
-3. Check the menu.
-   - Can you easily find the navigation menu?
+3. **Check the navigation menu.**
+   - Can you easily find the menu?
    - Does it open and close properly? (No stuck or disappearing menus!)
-4. Look at a few images.
+4. **Look at a few images.**
    - Are important images showing up sharp and clear? (Blurry, stretched, or teeny tiny pictures = time for an quick refresh)
-5. Make sure your logo links to your homepage (this is one of the easiest ways to make navigation smoother)
 
 #### Fix one broken link
 Did you **find any broken links** when you were testing your site on mobile? If so, and you have the ability to edit your site, choose **just one to fix.** That's it! (Although I do feel like fixing things is kind of satisfying once you get started)
@@ -54,7 +53,6 @@ For bonus points from Ty and myself, add alt text when you replace it so folks n
 I'm going to make a bold statement here and say that your contact form (if you have one, that is) is the most important part of your website. Having everything in working order here ensures you don't miss out on any opportunities your visitors may want to send your way!
 
 **To test your form, simply send yourself a test message,** being careful to fill out all available fields. Then, check your inbox and to make sure it actually arrives and that all of the information you filled out is visible.
-
 
 #### Make sure your email and phone number are clickable
 **When someone visits your site on their phone,** they don't want to copy-paste your email address or squint at your phone number to type it in. They just want to click (or tap!) and go.
@@ -80,6 +78,6 @@ Having a polished home page earns you major trust points. **Read through all of 
 Take a peek and make note of any outdated information. Check the year, links and any other information contained in the footer (commonly places with a physical location will put their hours or address here). 
 
 ### You're doing great!
-These small tweaks really do matter - even without rebuilding your site or changing your design, taking the time to make these updates shows visitors that you care about your website, which builds trust in your organization. 
+**These small tweaks really do matter** - even without rebuilding your site or changing your design, taking the time to make these updates shows visitors that you care about your website, which builds trust in your organization. 
 
-And remember, just like spring cleaning, you don't have to tackle everything at once (even if your hyperfocus says YOU MUST!). Your website (and your future visitors) will thank you for every little update you make - even completing one is a huge win!
+And remember, just like spring cleaning, you don't have to tackle everything at once (*even if your hyperfocus says YOU MUST!*). Your website (and your future visitors) will thank you for every little update you make - even completing one is a huge win!
