@@ -1,0 +1,106 @@
+---
+title: "Ty's Little Free Library | Design Freebies & Templates"
+page_desc: "Very chill design freebies for mailing list members only"
+layout: layouts/base.html
+body_classes: library
+---
+
+<section class="hero hero--light accent--border">
+  <div class="container container--lg">
+    <div class="hero__img">
+      <img src="/img/hero-ty.webp" alt="Image of a small penguin figurine named Ty" width="435" height="425" style="aspect-ratio: 435/425">
+    </div>
+    <div class="hero__text">
+      <h2 class="hero__headline hero__headline--primary hero__headline--2xl">Ty's Little Free Library</h2>
+      <h3 class="hero__subtitle hero__subtitle--bold">Tiny treasures to help you brand, design, and share your work with ease.</h3>
+      <span class="accent accent--underline-accent"></span>
+      <p class="hero__copy hero__copy--sm"><span class="first-line">Ty’s guarding the door</span> — just pop in the password to enter. Need the password? <a href="/mailing-list">Grab it here!</a></p>
+      <form class="library__form" id="library-form">
+        <div class="form-group">
+          <label for="name" class="form-group__label">Password:</label>
+          <input type="password" name="password" id="password" placeholder="Enter the password" class="form-group__input form-group__input--text">
+        </div>
+        <button class="btn btn--accent library__submit" id="btn-enter">Enter!</button>
+        <div id="message" class="form__message form__message--error"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<main id="content" class="main_content hide">
+  <div class="container container--lg">
+    <h2 class="main_content__title main_content__title--lg">
+      Ty's Little Free Library
+
+    </h2>
+    <span class="accent accent--underline accent--underline-accent"></span>
+
+    <section class="library__list post__body">
+
+      <h3>Brand Guidelines Template</h3>
+      <img src="/img/posts/brand-guidelines-template.webp" class="post__body-img post__body-img--r" width="500" height="281" alt="Brand Guidelines Template">
+      <p><strong>Keep your logos, colors, fonts, and brand voice</strong> organized in one easy place.
+        Choose the version that works best for you:</p>
+      <ul>
+        <li><a href="https://docs.google.com/presentation/d/1RmCeoF2S-qMWNZGV3RDKeeHHPOu57FmJt-1uWcjCzGk/copy">Google Slides Version</a> (easy to edit online)</li>
+        <li><a href="/img/uploads/brandguidelinestemplate.pptx">Powerpoint Version</a> (great for offline use)</li>
+        <li><a href="https://www.canva.com/design/DAGmgtGU_Kg/xkbSRETeCypb4MN99QLH8w/view?utm_content=DAGmgtGU_Kg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview">Canva Version</a> (drag-and-drop friendly)</li>
+        <li><a href="https://www.canva.com/design/DAGml0eKPpY/PBgfqKATv5btLFscWCtYog/view?utm_content=DAGml0eKPpY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview">Vertical Canva Version</a> (for a portable phone-friendly version)</li>
+      </ul>
+      <p>If you'd like to walk through customizing the template with me, <a href="https://youtu.be/k1vlmskgSYA" target="_blank" rel="noreferrer">watch and design along here.</a></p>
+    </section>
+  </div>
+
+
+  <script>
+    // Set up on click handler for enter button
+    const buttonEl = document.getElementById("btn-enter");
+    const passwordEl = document.getElementById("password");
+    const messageEl = document.getElementById("message");
+    const contentEl = document.getElementById("content");
+    const formEl = document.getElementById("library-form");
+    const localStorageItem = 'td-list-member';
+
+    const handlePWClick = () => {
+      messageEl.textContent = '';
+      passwordEl.classList.remove('form-group__input--error');
+    };
+
+    const evalPassword = (e) => {
+      e.preventDefault();
+      if (passwordEl.value.toLowerCase().trim() === "penguin") {
+        showContent();
+      } else {
+        // display error message
+        messageEl.innerHTML = 'Wrong password! Need the password? <a href="/mailing-list">Get it here!</a>';
+        passwordEl.classList.add('form-group__input--error');
+      }
+    };
+
+    const showContent = () => {
+      console.log(contentEl);
+      contentEl.classList.remove('hide');
+      localStorage.setItem(localStorageItem, Date.now());
+      formEl.classList.add('hide');
+    };
+
+    buttonEl.addEventListener('click', (e) => evalPassword(e));
+    passwordEl.addEventListener('click', () => handlePWClick());
+
+    const isMember = localStorage.getItem(localStorageItem);
+
+    if (isMember) {
+      // Check date stamp vs now
+      const now = new Date();
+      const pastDate = new Date(isMember);
+      const differenceInHours = (now - pastDate) / (1000 * 60 * 60);
+
+      // if greater than 14 days, clear 
+      if (differenceInHours > 336) {
+        localStorage.removeItem(localStorageItem);
+      }
+      // otherwise, renew and show content
+      localStorage.setItem(localStorageItem, Date.now());
+      showContent();
+    }
+  </script>

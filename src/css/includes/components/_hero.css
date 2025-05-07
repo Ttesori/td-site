@@ -64,6 +64,10 @@
   color: var(--color-primary);
 }
 
+.hero__headline--2xl {
+  font-size: 2.5rem;
+}
+
 .hero__headline--3xl {
   font-size: var(--text-3xl);
 }
@@ -92,12 +96,20 @@
   font-size: var(--text-base-lg);
 }
 
+.hero__copy--sm {
+  font-size: var(--text-base);
+}
+
 .hero__copy--balance {
   text-wrap: balance;
 }
 
 .hero__btn {
   margin-top: var(--space-6);
+}
+
+.hero a:not(.btn) {
+  color: var(--color-primary-med);
 }
 
 /* Page Specific */
@@ -120,6 +132,9 @@
   }
   .hero__headline {
     font-size: 3rem;
+  }
+  .hero__headline--2xl {
+    font-size: 2.5rem;
   }
   .hero .container {
     justify-content: center;
@@ -153,5 +168,8 @@
 
   .hero__copy {
     font-size: 1.1rem;
+  }
+  .hero__copy--sm {
+    font-size: var(--text-base);
   }
 }

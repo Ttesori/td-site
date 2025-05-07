@@ -85,6 +85,58 @@
   filter: contrast(120%) !important;
 }
 
+.library__form {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.07);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  transition: all 0.2s;
+}
+
+.library__form label,
+.library__form .library__submit {
+  font-size: var(--text-base-sm);
+}
+
+.library__form .form-group__label {
+  text-shadow: 0 0 0.5rem #fff;
+}
+
+.library__form .library__submit {
+  box-shadow: 0 0 0.5rem #fff;
+  border-radius: 0.75rem;
+}
+
+.library__form .form-group__input--text {
+  padding: 0.5rem 1rem;
+}
+
+.library__form .form-group__input--error {
+  border-color: #d53f4e;
+}
+
+.library__form .form-group {
+  gap: 0.5rem;
+}
+
+.library__form #message {
+  flex: 0 0 100%;
+  font-size: var(--text-sm);
+  text-align: center;
+  font-weight: bold;
+}
+
+.library__form .form__message--error {
+  color: #d53f4e;
+}
+
+#content.hidden {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .landing .logo {
     max-width: 500px;

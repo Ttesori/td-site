@@ -96,6 +96,19 @@
   margin-top: -0.5rem;
 }
 
+.post__body-img {
+  border: 1px solid var(--color-light);
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.post__body-img--r {
+  float: right;
+  margin-left: 1rem;
+}
+
 .post__footer {
   padding-bottom: 3rem;
 }

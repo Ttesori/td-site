@@ -2,7 +2,7 @@ import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
-import mdIterator from 'markdown-it-for-inline';
+import { JSDOM } from "jsdom";
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -32,15 +32,23 @@ export default async function (eleventyConfig) {
     breaks: true,
     linkify: true
   };
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
-    const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href');
-
-    if (href && (!href.includes('tesoridesign.com') && !href.startsWith('/') && !href.startsWith('#'))) {
-      tokens[idx].attrPush(['target', '_blank']);
-      tokens[idx].attrPush(['rel', 'noopener noreferrer']);
-    }
-  });
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLib);
+
+  eleventyConfig.addTransform("externalLinks", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const dom = new JSDOM(content);
+      const links = dom.window.document.querySelectorAll("a[href^='http']:not([href*='" + process.env.URL + "'])");
+
+      for (const link of links) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener");
+      }
+
+      return dom.serialize();
+    }
+    return content;
+  });
 
   return {
     htmlTemplateEngine: "njk"
