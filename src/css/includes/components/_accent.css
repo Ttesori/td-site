@@ -5,6 +5,11 @@
   position: relative;
 }
 
+.accent--centered {
+  margin: 0 auto;
+  display: block;
+}
+
 .accent--star {
   background: url('/img/star-accent.svg') no-repeat;
   background-size: contain;

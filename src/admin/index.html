@@ -12,6 +12,19 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- Include the script that builds the page and powers Decap CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    var PostPreview = createClass({
+      render: function () {
+        var entry = this.props.entry;
+        return h('div', {},
+          h('h1', {}, entry.getIn(['data', 'title'])),
+          h('div', { "className": "text" }, this.props.widgetFor('body'))
+        );
+      }
+    });
+    CMS.registerPreviewTemplate("blog", PostPreview);
+    CMS.registerPreviewStyle("/admin/styles.css");
+  </script>
 </body>
 
 </html>
