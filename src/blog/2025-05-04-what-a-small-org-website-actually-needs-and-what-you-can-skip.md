@@ -7,7 +7,7 @@ post_imgAlt: A hand with a cleaning glove and spray bottle on a teal background
 categories:
   - websites
 ---
-You know that feeling when you look at your website and think, * "ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!" *
+You know that feeling when you look at your website and think, <em>"ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!"</em>
 
 I get it: **all those little tasks pile up into a big mountain of overwhelm.** It's suuuper tempting to believe you need a complete do-over; to burn it all down and start fresh with something new and shiny and unbroken. 
 
