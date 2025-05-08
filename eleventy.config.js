@@ -21,10 +21,18 @@ export default async function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(format);
   });
   eleventyConfig.addFilter("truncate", function (content, length, useEllipsis = false) {
+    if (!content) return "";
+
     if (content.length <= length) {
       return content;
     }
-    return content.slice(0, length) + (useEllipsis ? "…" : "");
+    let truncated = content.slice(0, length);
+    // If it cuts off in the middle of a word, go back to the last space
+    const lastSpace = truncated.lastIndexOf(" ");
+    if (lastSpace > 0) {
+      truncated = truncated.slice(0, lastSpace);
+    }
+    return truncated + (useEllipsis ? "…" : "");
   });
 
   const markdownItOptions = {
