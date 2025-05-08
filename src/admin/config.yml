@@ -16,6 +16,7 @@ collections:
       - { label: 'Featured Image', name: 'post_img', widget: 'image' }
       - { label: 'Image Alt Text', name: 'post_imgAlt', widget: 'string' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
       - { label: 'Post Body', name: 'body', widget: 'markdown' }
       - {
           label: 'permalink',

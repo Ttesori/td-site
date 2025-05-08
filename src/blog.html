@@ -15,8 +15,7 @@ body_classes: blog
       <img src="{{featured.data.post_img}}" alt="{{featured.data.post_imgAlt}}" class="spotlight__img">
     </picture>
     <div class="hero__text spotlight__text">
-      <h2 class="hero__headline hero__headline--primary spotlight__title"><a
-          href="{{featured.url}}">{{featured.data.title}}</a></h2>
+      <h2 class="hero__headline hero__headline--primary spotlight__title"><a href="{{featured.url}}">{{featured.data.title}}</a></h2>
       <span class="accent accent--underline-accent"></span>
       <p class="hero__copy spotlight__copy">{{ featured.templateContent | striptags | truncate(275, true, '...') }}</p>
       <a class="btn btn--accent snippet__btn btn--wide" href="{{featured.url}}">Read More...</a>
@@ -31,10 +30,9 @@ body_classes: blog
   {%- for post in posts.slice(1) -%}
   <article class="blog-list__snippet card card--light card--shadow">
 
-    <a href="{{ post.url }}"><img src="{{ post.data.post_img }}" alt="{{post.data.post__imgAlt}}"
-        class="snippet__img"></a>
+    <a href="{{ post.url }}"><img src="{{ post.data.post_img }}" alt="{{post.data.post__imgAlt}}" class="snippet__img"></a>
     <h3 class="snippet__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-    <p class="snippet__excerpt">{{ post.templateContent | striptags | truncate(275, true, '...') }}</p>
+    <p class="snippet__excerpt">{{ post.excerpt | striptags | truncate(275, true, '...') }}</p>
     <a class="btn btn--accent snippet__btn btn--wide" href="{{ post.url }}">Read More...</a>
   </article>
   {%- endfor -%}
