@@ -5,6 +5,10 @@ post_img: /img/uploads/jeshoots-com-__zmnefoi3k-unsplash-copy.webp
 post_imgAlt: A hand with a cleaning glove and spray bottle on a teal background
 categories:
   - websites
+excerpt: You know that feeling when you look at your website and think, "ohhhhh
+  no...this is probably beyond saving. There's a picture of Judy on the about
+  page and she hasn't worked here in 3 years, we're no longer open on Mondays,
+  and there's like 14 links that aren't working!"
 permalink: /{{ title | slugify }}/
 ---
 You know that feeling when you look at your website and think, "ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!"
