@@ -31,7 +31,7 @@ To help reduce that event-crunch-time stress and make your job a bit easier, I'm
 
 Even if you’re partnering with another organization that has different branding, try to sneak in at least one of your own colors - it helps people know it’s you.
 
-#### ✅ DO make sure there's enough contrast for text to be readable. <br>❌ DON’T put light text on a light background or dark text on a dark background.
+#### ✅ DO make sure your text has enough contrast. <br>❌ DON’T put light text on a light background or dark text on a dark background.
 
 **With audiences scrolling so quickly,** they'll fly past anything that's too difficult for them to read. One major culprit here is contrast - the difference between your text color and the background behind it. As an example, maximum contrast would be black text on a white background, or vice-versa. 
 
