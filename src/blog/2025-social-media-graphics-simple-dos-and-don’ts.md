@@ -13,7 +13,7 @@ excerpt: "Are you ready for a wild statistic? According to a study from
   media posts...but what's the secret? "
 permalink: /{{ title | slugify }}/
 ---
-![A cartoon of Ty the penguin holding a checklist](/img/uploads/ty-checklist.png){class:.post__img-r}
+![A cartoon of Ty the penguin holding a checklist](/img/uploads/ty-checklist.png){class="post__img-r"}
 
 **Are you ready for a wild statistic?** [According to a study from Microsoft,](https://time.com/3858309/attention-spans-goldfish/) the average person's attention wanders after only 8 seconds - y'all, that's less than the notoriously-forgetful goldfish! This just goes to show the importance of capturing your audience's attention quickly in social media posts...but what's the secret? How do you build compelling graphics, especially when you don't have a designer on staff AND it's the week before an event AND you are scrambling biiiig-time?
 
