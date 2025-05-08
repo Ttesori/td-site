@@ -21,7 +21,7 @@ The truth is: **making effective social media graphics is *hard*.** You've got t
 
 If you've been graced with the task of putting those graphics together for your org, I want to start off by saying that you're doing **great**...and that the [average engagement on an Instagram post](https://www.socialinsider.io/social-media-benchmarks/instagram) is only 0.5%, so please don't beat yourself up for not going viral. 
 
-To help reduce that event-crunch-time stress and make your job a bit easier, I'm sharing 5 quick social media graphic dos and don'ts to make your DIY designing go more smoothly. There's absolutely no judgement here, just support!
+To help reduce that event-crunch-time stress and make your job a bit easier, I'm sharing **5 quick social media graphic dos and don'ts** to make your DIY designing go more smoothly. There's absolutely no judgement here, just support!
 
 ### The Dos and Don’ts List
 
@@ -37,7 +37,7 @@ Even if you’re partnering with another organization that has different brandin
 
 If you're curious about the contrast between two colors, you can quickly check using [WebAIM's Contrast Checker.](https://webaim.org/resources/contrastchecker/) This is especially important for accessibility reasons as well as for mobile users who are viewing your graphic on small screens - they need that strong contrast to easily read your copy.
 
-Bonus: If you’re feeling stuck, you can also make text easier to read by either making it a little bolder or a little bigger.
+*Bonus tip: If you’re feeling stuck, you can also make text easier to read by either making it a little bolder or a little bigger.*
 
 #### ✅ DO keep text short and simple. <br> ❌ DON’T cram a whole paragraph onto one graphic.
 
@@ -45,16 +45,16 @@ Bonus: If you’re feeling stuck, you can also make text easier to read by eithe
 
 I get it: it might feel weird at first to leave these details out of the graphic itself, but it's actually a strategy! Our goal is to make people curious enough to read the caption or click a link for more.
 
-To test your text, shrink your graphic down to roughly phone screen size (or even smaller) and make sure all of your copy is still easily readable.
+To test your text, **shrink your graphic down to roughly phone screen size** (or even smaller) and make sure all of your copy is still easily readable.
 
 #### ✅ DO check your image sizes and aspect ratios. <br>  ❌  DON’T use the same graphic size for every platform.
 
 **Different platforms expect different dimensions,** and if you don't use the right ones your graphics can have parts get cut off or have the image end up distorted, so it's worth taking the time to make multiple versions. Here's the [preferred dimensions](https://blog.hootsuite.com/social-media-image-sizes-guide/) for the social media heavy hitters:
 
-* Facebook: Landscape: 1080 x 566 | Stories: 1080 x 1920
-* Instagram: Square: 1080 x 1080 | Stories/Reels: 1080 x 1920
-* Linkedin: Square: 1200 x 1200 | Landscape: 1200 x 627
-* TikTok: Vertical/Stories: 1080 x 1920
+* **Facebook:** Landscape: 1080 x 566 | Stories: 1080 x 1920
+* **Instagram:** Square: 1080 x 1080 | Stories/Reels: 1080 x 1920
+* **Linkedin:** Square: 1200 x 1200 | Landscape: 1200 x 627
+* **TikTok:** Vertical/Stories: 1080 x 1920
 
 #### ✅ DO create a few go-to templates or layouts.<br>  ❌ DON’T start from scratch every time.
 
@@ -62,14 +62,14 @@ To test your text, shrink your graphic down to roughly phone screen size (or eve
 
 Having these templates ready to go saves time, saves your brain from decision fatigue, and makes your posts feel cohesive: which is actually a smart strategy!
 
-Cohesion helps your audience recognize your posts faster as they scroll...and that's what you want. And, real talk: unless you're Taylor Swift, I promise your audience is *not* going back and studying your full grid - most folks will only ever see a post or two at a time.
+**Cohesion helps your audience recognize your posts faster** as they scroll...and that's what you want. And, real talk: unless you're Taylor Swift, I promise your audience is *not* going back and studying your full grid - most folks will only ever see a post or two at a time.
 
-And if you’re worried about your feed feeling "too repetitive," here’s a cozy truth: if you posted a graphic similar to this six months ago (or even last week), no one will notice. And with small tweaks, like new images, updated text, or a fresh swap of a brand color, you can make a template feel brand new every time anyway. 🎉
+And if you’re worried about your feed feeling "too repetitive," here’s a cozy truth: **if you posted a graphic similar to this six months ago (or even last week), no one will notice.** And with small tweaks, like new images, updated text, or a fresh swap of a brand color, you can make a template feel brand new every time anyway. 🎉
 
 ### Wrapping it up: you've got this!
 
 **Even with all of these tips in hand,** let's be real: every post isn't going to be perfection and that's totally okay. Social media moves fast, so good enough really is good enough. Showing up on a consistent basis matters far more than creating some perfect graphic.
 
-And that's the good news: we are alllll about progress over perfection here. With every graphic you improve just a little bit, that progress adds up. Each stronger post snowballs into a stronger brand over time.
+And that's the good news: *we are alllll about progress over perfection here.* With every graphic you improve just a little bit, that progress adds up. Each stronger post snowballs into a stronger brand over time.
 
-Even if you only remember one thing from this post *(I vote for making sure your text is easy to read!)*, that's still a huge win. You are a wonderful human for working to improve your designs, and  just reach out if you run into any issues - I'm here for support!
+**Even if you only remember one thing from this post** *(I vote for making sure your text is easy to read!)*, that's still a huge win. You are a wonderful human for working to improve your designs, and just reach out if you run into any issues - I'm here for support!
