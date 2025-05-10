@@ -260,3 +260,34 @@
 .blog .post__cta a:hover {
   color: var(--color-primary-med);
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.gallery--right {
+  float: right;
+  margin-right: -3rem;
+  margin-left: 1.5rem;
+}
+
+.gallery--2cols p {
+  flex: 0 0 45%;
+  display: inline;
+  margin: 0;
+}
+
+.gallery p img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    max-width: 350px;
+  }
+}
