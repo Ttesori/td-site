@@ -269,16 +269,18 @@
   margin-bottom: 1rem;
 }
 
-.gallery--right {
-  float: right;
-  margin-right: -3rem;
-  margin-left: 1.5rem;
-}
-
 .gallery--2cols p {
-  flex: 0 0 45%;
+  flex: 0 0 48%;
   display: inline;
   margin: 0;
+}
+
+.gallery__title {
+  text-align: center;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-title);
+  color: var(--color-primary-med);
+  width: 100%;
 }
 
 .gallery p img {
@@ -289,5 +291,10 @@
 @media (min-width: 768px) {
   .gallery {
     max-width: 350px;
+  }
+  .gallery--right {
+    float: right;
+    margin-right: -5rem;
+    margin-left: 1.5rem;
   }
 }
