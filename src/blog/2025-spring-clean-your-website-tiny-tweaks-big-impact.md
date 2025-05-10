@@ -11,6 +11,8 @@ excerpt: You know that feeling when you look at your website and think, "ohhhhh
   and there's like 14 links that aren't working!"
 permalink: /{{ title | slugify }}/
 ---
+![An illustration of Ty the penguin sitting in front of a laptop](/img/uploads/ty-computer_1.png){class="post__body-img--r"}
+
 You know that feeling when you look at your website and think, *"ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!"*
 
 I get it: **all those little tasks pile up into a big mountain of overwhelm.** It's suuuper tempting to believe you need a complete do-over; to burn it all down and start fresh with something new and shiny and unbroken. 
