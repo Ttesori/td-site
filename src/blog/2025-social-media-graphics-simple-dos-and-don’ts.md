@@ -79,7 +79,7 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 <div class="gallery gallery--2cols gallery--right">
 
-####@ Real examples made with this template
+##### Real examples made with this template
 
 ![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/announcement-template.png)
 
