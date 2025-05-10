@@ -96,7 +96,7 @@ I made a simple, flexible Announcement graphic you can customize in minutes with
 
 ➡️ [Get the Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-#### 5 More Templates Available!
+#### 5 More Templates Available!{class="gallery__title"}
 
 **Want the full set,** which includes fully editable templates for events, sales, fundraisers, stories, and celebrations?
 
