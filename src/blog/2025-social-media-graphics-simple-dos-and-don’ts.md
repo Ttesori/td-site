@@ -87,7 +87,6 @@ I made a simple, flexible Announcement graphic you can customize in minutes with
 
 **Want the full set,** which includes templates for events, sales, fundraisers, stories, and celebrations?
 
-You’ll find them waiting in **Ty’s Little Free Library**, free when you join my cozy little creative community. 🐧
-*(No spam. Just thoughtful tools + occasional updates.)*
+🐧 You’ll find them waiting in **Ty’s Little Free Library**, free when you join my cozy little creative community. *(No spam, just helpful tools and occasional updates)*
 
 <div class="ml-embedded" data-form="rHFzWr"></div>
