@@ -85,7 +85,7 @@ I made a simple, flexible Announcement graphic you can customize in minutes with
 
 #### 5 More Templates Available!
 
-**Want the full set,** which includes templates for events, sales, fundraisers, stories, and celebrations?
+**Want the full set,** which includes fully editable templates for events, sales, fundraisers, stories, and celebrations?
 
 🐧 You’ll find them waiting in **Ty’s Little Free Library**, free when you join my cozy little creative community. *(No spam, just helpful tools and occasional updates)*
 
