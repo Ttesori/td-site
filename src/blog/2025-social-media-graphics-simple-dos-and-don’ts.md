@@ -92,7 +92,7 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 **Need a quick win for your next post?**
 I made a simple, flexible Announcement graphic you can customize in minutes with Canva.
 
-➡️ [Access the Free Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+➡️ [Grab the Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
 #### 5 More Templates Available!
 
