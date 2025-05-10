@@ -77,15 +77,15 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 ### Grab a Free Social Media Template
 
-<div class="gallery gallery--2col">
+<div class="gallery gallery--2col gallery--right">
 
-![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/1.png)
+![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/announcement-template.png)
 
-![](/img/uploads/example-2.png)
+![Small biz version: booking Q3 check-ins](/img/uploads/example-1.png)
 
-![](/img/uploads/example-1.png)
+![Nonprofit version: announcing a new distribution site](/img/uploads/example-2.png)
 
-![](/img/uploads/example-3.png)
+![Summer camp version: announcing upcoming registration](/img/uploads/example-3.png)
 
 </div>
 
