@@ -77,7 +77,7 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 ### Grab a Free Social Media Template
 
-<div class="post__body-img--r">
+<div class="gallery gallery--2col">
 
 ![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/1.png)
 
