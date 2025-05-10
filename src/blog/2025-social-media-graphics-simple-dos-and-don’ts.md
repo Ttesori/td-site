@@ -81,7 +81,7 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 ##### Real examples made with this template
 
-![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/announcement-template.png)
+![Social media graphic for an announcement of new hours for a handyman business](/img/uploads/example-4.png)
 
 ![Small biz version: booking Q3 check-ins](/img/uploads/example-1.png)
 
