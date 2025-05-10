@@ -7,7 +7,7 @@
 
 .accent--centered {
   margin: 0 auto;
-  display: block;
+  display: block !important;
 }
 
 .accent--star {
