@@ -79,6 +79,8 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 <div class="gallery gallery--2cols gallery--right">
 
+<strong>Real examples made with this template</strong>
+
 ![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/announcement-template.png)
 
 ![Small biz version: booking Q3 check-ins](/img/uploads/example-1.png)
