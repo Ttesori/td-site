@@ -73,3 +73,19 @@ And if you’re worried about your feed feeling "too repetitive," here’s a coz
 And that's the good news: *we are alllll about progress over perfection here.* With every graphic you improve just a little bit, that progress adds up. Each stronger post snowballs into a stronger brand over time.
 
 **Even if you only remember one thing from this post** *(I vote for making sure your text is easy to read!)*, that's still a huge win. You are a wonderful human for working to improve your designs, and just reach out if you run into any issues - I'm here for support!
+<span class="accent accent--dots accent--centered"></span>
+
+###  Grab a Free Social Media Template
+
+**Need a quick win for your next post?**
+I made a simple, flexible Announcement graphic you can customize in minutes with Canva.
+
+➡️ [Access the Free Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+
+#### 5 More Templates Available!
+**Want the full set,** which includes templates for events, sales, fundraisers, stories, and celebrations?
+
+You’ll find them waiting in **Ty’s Little Free Library**, free when you join my cozy little creative community. 🐧
+*(No spam. Just thoughtful tools + occasional updates.)*
+
+<div class="ml-embedded" data-form="rHFzWr"></div>
