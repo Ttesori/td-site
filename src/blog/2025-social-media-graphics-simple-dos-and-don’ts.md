@@ -77,13 +77,17 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 
 ### Grab a Free Social Media Template
 
-![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/1.png){class="post__body-img--r"}
+<div class="post__body-img--r">
 
-![](/img/uploads/example-2.png){class="post__body-img--r"}
+![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/1.png)
 
-![](/img/uploads/example-1.png){class="post__body-img--r"}
+![](/img/uploads/example-2.png)
 
-![](/img/uploads/example-3.png){class="post__body-img--r"}
+![](/img/uploads/example-1.png)
+
+![](/img/uploads/example-3.png)
+
+</div>
 
 **Need a quick win for your next post?**
 I made a simple, flexible Announcement graphic you can customize in minutes with Canva.
