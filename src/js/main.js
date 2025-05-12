@@ -36,38 +36,95 @@ const modal = document.getElementById('modal');
 const modalImage = document.getElementById('modal-image');
 const openModalButtons = document.querySelectorAll('.open-modal-button');
 const closeModalButton = document.getElementById('modal-close');
+const modalNextButton = document.getElementById('modal-next');
+const modalPrevButton = document.getElementById('modal-prev');
 let lastFocusedElement;
+let currentIndex = -1; // Index of currently open item
+let currentGroup = null;
+let items = []; // will be se
+
+const openModal = (index, group = null) => {
+  console.log('opening modal');
+  currentGroup = group;
+
+  // Rebuild items array first
+  items = group
+    ? Array.from(document.querySelectorAll(`.open-modal-button[data-group="${group}"]`))
+    : Array.from(document.querySelectorAll('.open-modal-button'));
+
+  currentIndex = index;
+  const button = items[index];
+  if (!button) return;
+
+  lastFocusedElement = document.activeElement;
+
+  const imgSrc = button.getAttribute('data-image');
+  const imgAlt = button.getAttribute('data-alt');
+  const imgDesc = button.getAttribute('data-description');
+  const imgLink = button.getAttribute('data-link');
+
+  const headingEl = document.getElementById('modal-heading');
+  const descEl = document.getElementById('modal-description');
+
+  headingEl.classList.remove('show');
+  descEl.classList.remove('show');
+  modalImage.classList.remove('show'); // start image fade out
+
+  setTimeout(() => {
+    headingEl.textContent = imgAlt;
+    descEl.textContent = imgDesc;
+
+    if (imgLink) {
+      const a = document.createElement('a');
+      a.setAttribute('href', imgLink);
+      a.setAttribute('target', '_blank');
+      a.classList.add('modal__link');
+      a.textContent = 'View Website';
+      descEl.appendChild(a);
+    }
+
+    headingEl.classList.add('show');
+    descEl.classList.add('show');
+
+    modalImage.src = imgSrc;
+    modalImage.alt = imgAlt;
+    modalImage.onload = () => {
+      modalImage.classList.add('show');
+    };
+  }, 150); // match transition timing
+
+  modal.classList.add('show');
+  modal.setAttribute('aria-hidden', 'false');
+  closeModalButton.removeAttribute('tabindex');
+  closeModalButton.focus();
+};
+
 
 if (modal) {
-  openModalButtons.forEach(button => {
+  openModalButtons.forEach((button) => {
     button.addEventListener('click', () => {
-      lastFocusedElement = document.activeElement;
-
-      const imgSrc = button.getAttribute('data-image');
-      const imgAlt = button.getAttribute('data-alt');
-      const imgDesc = button.getAttribute('data-description');
-      const imgLink = button.getAttribute('data-link');
-      const descEl = document.getElementById('modal-description');
-
-      modalImage.src = imgSrc;
-      modalImage.alt = imgAlt;
-      descEl.textContent = imgDesc;
-      document.getElementById('modal-heading').textContent = imgAlt;
-      if (imgLink) {
-        const a = document.createElement('a');
-        a.setAttribute('href', imgLink);
-        a.setAttribute('target', '_blank');
-        a.classList.add('modal__link');
-        a.textContent = 'View Website';
-
-        descEl.appendChild(a);
-      }
-
-      modal.classList.add('show');
-      modal.setAttribute('aria-hidden', 'false');
-      closeModalButton.removeAttribute('tabindex');
-      closeModalButton.focus();
+      const group = button.getAttribute('data-group');
+      const allInGroup = Array.from(document.querySelectorAll(
+        group
+          ? `.open-modal-button[data-group="${group}"]`
+          : '.open-modal-button'
+      ));
+      const index = allInGroup.indexOf(button);
+      openModal(index, group);
     });
+  });
+  items.forEach((button, index) => {
+    button.addEventListener('click', () => openModal(index));
+  });
+
+  modalNextButton.addEventListener('click', () => {
+    const next = (currentIndex + 1) % items.length;
+    openModal(next);
+  });
+
+  modalPrevButton.addEventListener('click', () => {
+    const prev = (currentIndex - 1 + items.length) % items.length;
+    openModal(prev);
   });
 }
 
@@ -84,6 +141,14 @@ if (closeModalButton) {
 
     if (e.key === 'Tab' && modal.classList.contains('show')) {
       trapFocus(e);
+    }
+
+    if (!modal.classList.contains('show')) return;
+
+    if (e.key === 'ArrowRight') {
+      modalNextButton.click();
+    } else if (e.key === 'ArrowLeft') {
+      modalPrevButton.click();
     }
   });
 }

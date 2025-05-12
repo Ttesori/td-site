@@ -1,10 +1,11 @@
 <!-- Portfolio Modal -->
-<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-heading"
-  aria-describedby="modal-description">
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-heading" aria-describedby="modal-description">
   <div class="modal-content" role="document">
     <button id="modal-close" class="modal-close" aria-label="Close Modal" tabindex="-1">×</button>
-    <img id="modal-image" src="" alt="" />
-    <h3 id="modal-heading" class="modal__heading">Portfolio Item</h3>
-    <p id="modal-description" class="modal__description"></p>
+    <img id="modal-image" class="modal-image-transition" src="" alt="" />
+    <h3 id="modal-heading" class="modal__heading fade-transition show">Portfolio Item</h3>
+    <p id="modal-description" class="modal__description fade-transition show"></p>
   </div>
+  <button id="modal-prev" class="modal-arrow modal-arrow--left" aria-label="Previous item">←</button>
+  <button id="modal-next" class="modal-arrow modal-arrow--right" aria-label="Next item">→</button>
 </div>
