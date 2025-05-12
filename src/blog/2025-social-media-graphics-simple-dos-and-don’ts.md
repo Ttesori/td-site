@@ -76,14 +76,27 @@ And that's the good news: *we are alllll about progress over perfection here.* W
 <span class="accent accent--dots accent--centered"></span>
 
 ### Grab a Free Social Media Template
-![Social media graphic for an announcement with text reading 'Coming Soon' A short teaser about your news](/img/uploads/1.png){class="post__body-img--r"}
+
+<div class="gallery gallery--2cols gallery--right">
+
+##### Real examples made with this template
+
+![Social media graphic for an announcement of new hours for a handyman business](/img/uploads/example-4.png)
+
+![Small biz version: booking Q3 check-ins](/img/uploads/example-1.png)
+
+![Nonprofit version: announcing a new distribution site](/img/uploads/example-2.png)
+
+![Summer camp version: announcing upcoming registration](/img/uploads/example-3.png)
+
+</div>
 
 **Need a quick win for your next post?**
 I made a simple, flexible Announcement graphic you can customize in minutes with Canva.
 
-➡️ [Access the Free Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+➡️ [Get the Announcement Template](https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-#### 5 More Templates Available!
+#### 5 More Templates Available!{class="gallery__title"}
 
 **Want the full set,** which includes fully editable templates for events, sales, fundraisers, stories, and celebrations?
 
