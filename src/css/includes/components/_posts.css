@@ -84,6 +84,7 @@
   font-size: var(--text-lg);
   margin-bottom: 0.5rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 .post__body li {

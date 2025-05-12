@@ -64,6 +64,7 @@ const openModal = (index, group = null) => {
 
   const headingEl = document.getElementById('modal-heading');
   const descEl = document.getElementById('modal-description');
+  const countEl = document.getElementById('modal-count');
 
   headingEl.classList.remove('show');
   descEl.classList.remove('show');
@@ -72,6 +73,7 @@ const openModal = (index, group = null) => {
   setTimeout(() => {
     headingEl.textContent = imgAlt;
     descEl.textContent = imgDesc;
+    countEl.textContent = `${currentIndex + 1} of ${items.length}`;
 
     if (imgLink) {
       const a = document.createElement('a');
@@ -93,7 +95,7 @@ const openModal = (index, group = null) => {
   }, 150); // match transition timing
 
   modal.classList.add('show');
-  modal.setAttribute('aria-hidden', 'false');
+  modal.removeAttribute('inert');
   closeModalButton.removeAttribute('tabindex');
   closeModalButton.focus();
 };
@@ -175,7 +177,7 @@ function trapFocus(e) {
 
 function closeModal() {
   modal.classList.remove('show');
-  modal.setAttribute('aria-hidden', 'true');
+  modal.setAttribute('inert', '');
   closeModalButton.setAttribute('tabindex', '-1');
 
   if (lastFocusedElement) {

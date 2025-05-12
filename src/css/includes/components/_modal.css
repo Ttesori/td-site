@@ -102,6 +102,14 @@
   transform: scale(1.05);
 }
 
+.modal__count {
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--color-med);
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
 .modal-arrow {
   position: absolute;
   top: 50%;
