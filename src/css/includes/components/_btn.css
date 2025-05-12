@@ -71,6 +71,15 @@
   letter-spacing: normal;
 }
 
+.btn--text {
+  background: none;
+  padding: 0;
+  color: currentColor;
+  margin: 0;
+  border-radius: 0;
+  border-bottom: 2px solid var(--color-accent);
+}
+
 @media (min-width: 768px) {
   .btn--wide {
     padding: var(--space-3) var(--space-8);
@@ -79,6 +88,9 @@
     font-size: var(--text-base);
     letter-spacing: 1px;
     border-radius: var(--space-5);
+  }
+  .btn--text {
+    border-radius: 0;
   }
   .btn--deco {
     gap: var(--space-2);

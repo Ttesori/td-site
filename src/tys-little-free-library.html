@@ -57,14 +57,9 @@ body_classes: library
         <img src="/img/resources/social-graphics/Fundraiser - Example 2.webp" alt="">
         <img src="/img/resources/social-graphics/Sale - Example 2.webp" alt="">
         <img src="/img/resources/social-graphics/Story - Example 2.webp" alt="">
-        <h5><a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 1.webp" data-alt="Social Media Templates" data-description="Announcement Example 1" data-group="social">See More Examples</a></h5>
-        <div class="hidden">
-          <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 2.webp" data-alt="Social Media Templates" data-description="Announcement Example 2" data-group="social">Announcement Example 2</a>
-          <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 3.webp" data-alt="Social Media Templates" data-description="Announcement Example 3" data-group="social">Announcement Example 3</a>
-          <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 4.webp" data-alt="Social Media Templates" data-description="Announcement Example 4" data-group="social">Announcement Example 4</a>
-        </div>
+        <h5><button class="btn btn--text open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 1.webp" data-alt="Social Media Templates" data-description="Announcement Example 1" data-group="social">See More Examples</button></h5>
       </div>
-      <p>Five versatile Canva templates designed for small businesses and nonprofits — clean, readable, and easy to customize.</p>
+      <p><strong>Five versatile Canva templates</strong> designed for small businesses and nonprofits — clean, readable, and easy to customize.</p>
 
       <ul>
         <li><a href="https://www.canva.com/design/DAGnElseiuw/2S0kn-fk0D5NKTjZrUnnMw/view?utm_content=DAGnElseiuw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview">Announcement:</a> share news, launches, or updates</li>
@@ -73,7 +68,22 @@ body_classes: library
         <li><a href="https://www.canva.com/design/DAGnEtzeQWY/nN5AiC8uLmuUBVcIAtFXpQ/view?utm_content=DAGnEtzeQWY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview">Story:</a> tell a short volunteer story or share a testimonial</li>
         <li><a href="https://www.canva.com/design/DAGnEsS1NRk/95TQLWyLcasBakjYU11sUg/view?utm_content=DAGnEsS1NRk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview ">Celebration:</a> mark a milestone or seasonal win 🎉</li>
       </ul>
-
+      <p>A walk through of how to use these templates is coming soon!</p>
+      <div class="hidden">
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 2.webp" data-alt="Social Media Templates" data-description="Announcement Example 2" data-group="social">Announcement Example 2</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 3.webp" data-alt="Social Media Templates" data-description="Announcement Example 3" data-group="social">Announcement Example 3</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Announcement - Example 4.webp" data-alt="Social Media Templates" data-description="Announcement Example 4" data-group="social">Announcement Example 4</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Event - Example 1.webp" data-alt="Social Media Templates" data-description="Event Example 1" data-group="social">Event Example 1</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Event - Example 2.webp" data-alt="Social Media Templates" data-description="Event Example 2" data-group="social">Event Example 2</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Fundraiser - Example 1.webp" data-alt="Social Media Templates" data-description="Fundraiser Example 1" data-group="social">Fundraiser Example 1</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Fundraiser - Example 2.webp" data-alt="Social Media Templates" data-description="Fundraiser Example 2" data-group="social">Fundraiser Example 2</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Sale - Example 1.webp" data-alt="Social Media Templates" data-description="Sale Example 1" data-group="social">Sale Example 1</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Sale - Example 2.webp" data-alt="Social Media Templates" data-description="Sale Example 2" data-group="social">Sale Example 2</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Story - Example 1.webp" data-alt="Social Media Templates" data-description="Story Example 1" data-group="social">Story Example 1</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Story - Example 2.webp" data-alt="Social Media Templates" data-description="Story Example 2" data-group="social">Story Example 2</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Celebration - Example 1.webp" data-alt="Social Media Templates" data-description="Celebration Example 1" data-group="social">Celebration Example 1</a>
+        <a class="open-modal-button" data-image="/img/resources/social-graphics/Celebration - Example 2.webp" data-alt="Social Media Templates" data-description="Celebration Example 2" data-group="social">Celebration Example 2</a>
+      </div>
     </section>
   </div>
 
@@ -104,7 +114,6 @@ body_classes: library
     };
 
     const showContent = () => {
-      console.log(contentEl);
       contentEl.classList.remove('hide');
       localStorage.setItem(localStorageItem, Date.now());
       formEl.classList.add('hide');

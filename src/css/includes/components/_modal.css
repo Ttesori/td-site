@@ -106,12 +106,12 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.2);
   border: none;
   font-size: 2rem;
-  color: var(--color-primary-dark);
+  color: white;
   cursor: pointer;
-  padding: 0.5rem 0.75rem;
+  padding: 0.35rem 0.75rem 0.65rem;
   border-radius: 50%;
   z-index: 1;
   transition: background 0.2s, transform 0.2s;

@@ -44,7 +44,6 @@ let currentGroup = null;
 let items = []; // will be se
 
 const openModal = (index, group = null) => {
-  console.log('opening modal');
   currentGroup = group;
 
   // Rebuild items array first
