@@ -107,7 +107,7 @@ Take a peek and make note of any outdated information. Check the year, links and
 
 And remember, just like spring cleaning, you don't have to tackle everything at once (*even if your hyperfocus says YOU MUST!*). Your website (and your future visitors) will thank you for every little update you make - even completing one is a huge win!
 
-<hr>
+<span class="accent accent--dots accent--centered"></span>
 
 ### Grab the Free Website Bingo Card{id="freebie"}
 
