@@ -112,6 +112,10 @@
   margin-bottom: 1rem;
 }
 
+.post-img--sm {
+  max-width: 250px;
+}
+
 .post .post__body-img--r,
 .post .post-img-r {
   right: -2rem;

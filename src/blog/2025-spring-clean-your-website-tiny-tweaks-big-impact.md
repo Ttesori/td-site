@@ -15,7 +15,7 @@ page_desc: Give your site a little love with this website audit checklist made
 permalink: /how-to-improve-your-website-audit-checklist/
 ---
 
-![An illustration of Ty the penguin sitting in front of a laptop](/img/uploads/ty-computer_1.png){class="post-img-r"}
+![An illustration of Ty the penguin sitting in front of a laptop](/img/uploads/ty-computer_1.png){class="post-img-r post-img--sm sm:hide"}
 
 You know that feeling when you look at your website and think, _"ohhhhh no...this is probably beyond saving. There's a picture of Judy on the about page and she hasn't worked here in 3 years, we're no longer open on Mondays, and there's like 14 links that aren't working!"_
 
@@ -35,7 +35,7 @@ So get your imaginary broom and dustpan ready and let's move through some tiny, 
 
 You'll probably want to take notes in a notebook or in your Notes app as you move through the tweaks below and figure out which ones apply to you. That way you can have an organized list to take to your web developer or to tackle on your own!
 
-**Note:** _If you get overwhelmed, I would be happy to help you with any of these and more - just fill out the [Start Here form](/forms/start-here) and I'll get to work_
+**Note:** _If you get overwhelmed, I would be happy to help you with any of these and more - just fill out the [Start Here form](/forms/start-here) and I'll get to work!_
 
 #### Test your site on your phone
 
@@ -70,7 +70,7 @@ Did you **find any broken links** when you were testing your site on mobile? If 
 
 Choose one **blurry, tiny or outdated photo** and replace it. That's it!
 
-For bonus points from Ty and myself, add alt text when you replace it so folks navigating the web with screen readers can understand your new photo too. If you're not sure how to do this, search for "how to add alt text to a photo \[your website platform, like Wordpress/Squarespace/Shopify etc]"
+For bonus points from Ty and myself, add alt text when you replace it so folks navigating the web with screen readers can understand your new photo too. If you're not sure how to do this, search for "[how to add alt text to a photo](https://www.google.com/search?q=how+to+add+alt+text+to+a+photo) \[your website platform, like Wordpress/Squarespace/Shopify etc]"
 
 #### Test your contact form
 
@@ -84,10 +84,8 @@ For bonus points from Ty and myself, add alt text when you replace it so folks n
 
 If you tap them, and nothing happens, you can fix this in your website editor. Every platform is a bit different, but in general:
 
-- When you add your email address, make the link start with `mailto:`<br>
-  **Example:** instead of linking to `yourorg.com/contact`, it should link to `mailto:hello@yourorg.com`
-- For your phone number, make the link start with `tel:` <br>
-  **Example:** instead of just typing 123-456-7890, add a link that points to `tel:1234567890`
+- When you add your email address, make the link start with `mailto:`<br>**Example:** instead of linking to `yourorg.com/contact`, it should link to `mailto:hello@yourorg.com`
+- For your phone number, make the link start with `tel:` <br>**Example:** instead of just typing 123-456-7890, add a link that points to `tel:1234567890`
 
 #### Test your social media links
 
