@@ -1,5 +1,5 @@
 ---
-title: "Spring Clean Your Website: Tiny Tweaks, Big Impact"
+title: "Spring Clean Your Website: A Friendly Website Audit Checklist"
 date: 2025-05-07T16:38:00.000Z
 post_img: /img/uploads/jeshoots-com-__zmnefoi3k-unsplash-copy.webp
 post_imgAlt: A hand with a cleaning glove and spray bottle on a teal background
@@ -9,6 +9,9 @@ excerpt: You know that feeling when you look at your website and think, "ohhhhh
   no...this is probably beyond saving. There's a picture of Judy on the about
   page and she hasn't worked here in 3 years, we're no longer open on Mondays,
   and there's like 14 links that aren't working!"
+page_desc: Give your site a little love with this website audit checklist made
+  for small businesses and nonprofits. Easy wins, tiny tweaks, no redesign
+  required.
 permalink: /{{ title | slugify }}/
 ---
 ![An illustration of Ty the penguin sitting in front of a laptop](/img/uploads/ty-computer_1.png){class="post__body-img--r"}
@@ -22,6 +25,8 @@ I get it: **all those little tasks pile up into a big mountain of overwhelm.** I
 **I feel this might be a web designer secret or something,** but the truth is: most websites aren't as unsalvageable as they feel in those moments of late-night despair. They just need some thoughtful attention and a few strategic updates...I guess it's kind of like spring cleaning for your website!
 
 So get your imaginary broom and dustpan ready and let's move through some tiny, low-pressure fixes you can make to your existing website -- no "delete everything and start over" panic necessary. In the end, your website will feel revitalized, easier to use, and more trustworthy. Let's get started!
+
+<blockquote class="post__aside post__aside--cols"><img src="/img/icon-checkbox-twocolor.svg" width="65" height="70" alt=""><span><strong>Before we dive in:</strong> if you love a cute handout, I’ve got a <a href="#freebie">Website Bingo freebie</a> you can use at the end of this post!</em> 🎉</span></blockquote>
 
 ### Tiny Tweaks You Can Make Today
 
@@ -101,3 +106,21 @@ Take a peek and make note of any outdated information. Check the year, links and
 **These small tweaks really do matter** - even without rebuilding your site or changing your design, taking the time to make these updates shows visitors that you care about your website, which builds trust in your organization. 
 
 And remember, just like spring cleaning, you don't have to tackle everything at once (*even if your hyperfocus says YOU MUST!*). Your website (and your future visitors) will thank you for every little update you make - even completing one is a huge win!
+
+<span class="accent accent--dots accent--centered"></span>
+
+### 🎁 Get the Free Website Bingo Card{id="freebie"}
+
+**Feeling inspired to tidy things up?** I made a little something to make it even easier.
+
+#### Ty’s Tiny Tidy-Up: Website Bingo + Mini Fix Guide
+![Downloadable Website Bingo card with 9 simple site cleanup tips and a penguin mascot in the center.](/img/resources/website-bingo/website-bingo.webp){class="post-img-r"} **This free 1-page download includes:**
+
+- A gentle website audit checklist
+- A cute bingo card with 9 easy wins to choose from
+- Quick how-to tips for each square to make the process painless
+
+👉 [Download the free Website Bingo card (PDF)](/img/resources/website-bingo/tys-website-bingo.pdf)<br>
+No email required, just a little gift from me (and Ty the penguin 🐧) to help you feel good about your website again.
+
+*Are you in my [cozy community](/mailing-list)? You’ll also find it waiting for you inside Ty’s Little Free Library.*
