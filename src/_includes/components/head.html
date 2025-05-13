@@ -5,10 +5,10 @@
 <!-- <link rel="preload" as="image" href="/img/hero-home.webp"> -->
 <title>{{title | default('Websites & Design for Nonprofits and Small Businesses')}} | Tesori Design</title>
 <link rel="stylesheet" href="/css/main.css">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tesori Design | Websites & Design for Nonprofits and Small Businesses">
-<meta property="og:description" content="Custom websites and design support for nonprofits and small businesses.">
-<!-- <meta property="og:image" content="https://tesori.netlify.app/img/og-image.jpg"> 
-<meta property="og:url" content="https://tesori.netlify.app/"> -->
 {{ preload | safe }}
 <script defer data-domain="tesoridesign.com" src="https://plausible.io/js/script.js"></script>
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{title | default('Websites & Design for Nonprofits and Small Businesses')}}" />
+<meta property="og:description" content="{{ page_desc | default('Custom websites and design support for nonprofits and small businesses.') }}" />
+<meta property="og:url" content="https://tesoridesign.com{{permalink}}" />
+<meta property="og:image" content="https://tesoridesign.com{{og_img | default('/img/uploads/og-image-default.jpg')}}" />

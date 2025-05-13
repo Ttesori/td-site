@@ -3,6 +3,7 @@ title: 'Spring Clean Your Website: A Friendly Website Audit Checklist'
 date: 2025-05-07T16:38:00.000Z
 post_img: /img/uploads/jeshoots-com-__zmnefoi3k-unsplash-copy.webp
 post_imgAlt: A hand with a cleaning glove and spray bottle on a teal background
+og_img: '/img/uploads/og-image-checklist.jpg'
 categories:
   - websites
 excerpt: You know that feeling when you look at your website and think, "ohhhhh
