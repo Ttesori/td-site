@@ -109,7 +109,7 @@ And remember, just like spring cleaning, you don't have to tackle everything at 
 
 <span class="accent accent--dots accent--centered"></span>
 
-### 🎁 Grab the Free Website Bingo Card{id="freebie"}
+### 🎁 Get the Free Website Bingo Card{id="freebie"}
 
 **Feeling inspired to tidy things up?** I made a little something to make it even easier.
 
