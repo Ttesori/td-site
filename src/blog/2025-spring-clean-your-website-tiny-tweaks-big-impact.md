@@ -110,8 +110,7 @@ And remember, just like spring cleaning, you don't have to tackle everything at 
 **Feeling inspired to tidy things up?** I made a little something to make it even easier.
 
 ### Ty’s Tiny Tidy-Up: Website Bingo + Mini Fix Guide
-![Downloadable Website Bingo card with 9 simple site cleanup tips and a penguin mascot in the center.](/img/resources/website-bingo/website-bingo.webp){class="post-img-r"}
-**This free 1-page download includes:**
+![Downloadable Website Bingo card with 9 simple site cleanup tips and a penguin mascot in the center.](/img/resources/website-bingo/website-bingo.webp){class="post-img-r"} **This free 1-page download includes:**
 
 - A gentle website audit checklist
 - A cute bingo card with 9 easy wins to choose from
