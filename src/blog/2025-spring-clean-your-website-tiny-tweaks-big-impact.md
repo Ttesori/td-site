@@ -26,6 +26,8 @@ I get it: **all those little tasks pile up into a big mountain of overwhelm.** I
 
 So get your imaginary broom and dustpan ready and let's move through some tiny, low-pressure fixes you can make to your existing website -- no "delete everything and start over" panic necessary. In the end, your website will feel revitalized, easier to use, and more trustworthy. Let's get started!
 
+<blockquote class="post__aside post__aside--cols"><img src="/img/icon-checkbox-twocolor.svg" width="65" height="70" alt=""><span><strong>Before we dive in:</strong> if you love a cute handout, I’ve got a <a href="#freebie">Website Bingo freebie</a> you can use at the end of this post!</em> 🎉</span></blockquote>
+
 ### Tiny Tweaks You Can Make Today
 
 **These bite-sized tasks are all designed** to feel (and be!) super doable. None should take more than an hour, and if you knock out one or two a week you'll be done in no time...although once you get started you might zoom through them all in a day or two! But remember: we are alllll about tiny wins here - just do what you can when you have the spoons to do it!
@@ -105,11 +107,13 @@ Take a peek and make note of any outdated information. Check the year, links and
 
 And remember, just like spring cleaning, you don't have to tackle everything at once (*even if your hyperfocus says YOU MUST!*). Your website (and your future visitors) will thank you for every little update you make - even completing one is a huge win!
 
-## Grab the Free Website Bingo Card
+<hr>
+
+### Grab the Free Website Bingo Card{id="freebie"}
 
 **Feeling inspired to tidy things up?** I made a little something to make it even easier.
 
-### Ty’s Tiny Tidy-Up: Website Bingo + Mini Fix Guide
+#### Ty’s Tiny Tidy-Up: Website Bingo + Mini Fix Guide
 ![Downloadable Website Bingo card with 9 simple site cleanup tips and a penguin mascot in the center.](/img/resources/website-bingo/website-bingo.webp){class="post-img-r"} **This free 1-page download includes:**
 
 - A gentle website audit checklist
