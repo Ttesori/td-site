@@ -1,5 +1,5 @@
 ---
-title: 'Spring Clean Your Website: A Friendly Website Audit Checklist'
+title: 'Spring Clean Your Website: A Friendly Website Checklist'
 date: 2025-05-07T16:38:00.000Z
 post_img: /img/uploads/jeshoots-com-__zmnefoi3k-unsplash-copy.webp
 post_imgAlt: A hand with a cleaning glove and spray bottle on a teal background
