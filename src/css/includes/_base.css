@@ -73,6 +73,10 @@ body {
   display: none !important;
 }
 
+.clear {
+  clear: both;
+}
+
 @media (min-width: 764px) {
   html {
     font-size: var(--font-size-lg);
