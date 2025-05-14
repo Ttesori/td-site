@@ -25,17 +25,34 @@
   }
 
   .nav__menu li {
+    position: relative;
   }
 
-  .nav__menu a {
+  .nav__menu a,
+  .has-submenu button {
     font-size: 1.1rem;
     padding: 0.25rem 0.75rem;
     margin: 0 0.25rem;
     text-transform: lowercase;
+    border: 0;
     border-bottom: 3px solid transparent;
     transition: border 0.2s;
     border-radius: 0;
     display: flex;
+    color: white;
+    background: none;
+  }
+
+  .has-submenu button {
+    margin: 0;
+    padding: 0;
+    text-shadow: var(--shadow-dark) 0px 0px 3px;
+    font-weight: bold;
+  }
+
+  .has-submenu a:hover,
+  .has-submenu a {
+    border: 0 !important;
   }
 
   .nav__menu a:hover {
@@ -48,6 +65,7 @@
   .home .nav--home,
   .about .nav--about,
   .services .nav--services,
+  .services .nav--services button,
   .blog .nav--blog,
   .contact .nav--contact {
     color: var(--color-accent-light);
@@ -64,6 +82,80 @@
     margin-right: 0.65rem;
     position: relative;
     top: 2px;
+  }
+
+  .nav__l2 {
+    position: absolute;
+    top: 95%;
+    padding-top: 0.5rem;
+    left: 0.5rem;
+    /* style dropdown menu */
+    background: var(--color-primary-dark);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0.25rem);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    z-index: 100;
+  }
+
+  .nav__l2 li,
+  .nav__l2 ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__l2 a {
+    margin: 0;
+    text-align: left;
+    font-size: var(--text-base-sm);
+    padding: 0.5rem 0.75rem 0.5rem;
+    border: 0;
+    transition: all 0.1s;
+  }
+  .nav__l2 li:last-child a {
+    padding-bottom: 0.75rem;
+  }
+  .nav__l2 a:hover {
+    background: var(--color-accent);
+    color: #005566;
+    text-shadow: none;
+    text-shadow: 0 0 0.25rem rgba(255, 255, 255, 0.5);
+    border: 0;
+  }
+
+  .nav__l2[hidden] {
+    display: none;
+  }
+
+  .has-submenu:focus-within .nav__l2,
+  .has-submenu:hover .nav__l2 {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .btn--submenu {
+    display: flex;
+    align-items: end;
+  }
+
+  .submenu-arrow {
+    font-family: var(--font-copy);
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+    line-height: 1;
+  }
+
+  [aria-expanded='true'] .submenu-arrow,
+  .has-submenu:focus-within .submenu-arrow,
+  .has-submenu:hover .submenu-arrow {
+    transform: rotate(180deg);
   }
 }
 

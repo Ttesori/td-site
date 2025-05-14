@@ -8,12 +8,16 @@ body {
   color: var(--color-dark);
 }
 
-main a {
+main a:not(.btn) {
   color: var(--color-primary-dark);
   transition: color 0.2s;
 }
 
-main a:hover {
+main a:hover:not(.btn) {
+  color: var(--color-accent-dark);
+}
+
+main a:visited:not(.btn) {
   color: var(--color-accent-dark);
 }
 

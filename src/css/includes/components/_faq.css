@@ -2,6 +2,19 @@
   padding: var(--space-8) var(--space-8) var(--space-12);
 }
 
+.faq a:not(.btn) {
+  color: var(--color-primary-dark);
+  transition: color 0.2s;
+}
+
+.faq a:visited:not(.btn) {
+  color: var(--color-accent-dark);
+}
+
+.faq a:hover:not(.btn) {
+  color: var(--color-primary);
+}
+
 .faq__title {
   font-family: var(--font-headline);
   font-weight: normal;

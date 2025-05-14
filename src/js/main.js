@@ -215,4 +215,27 @@ if (faqButtons) {
 }
 
 
+const workMenuButton = document.getElementById("work-button");
+const workSubmenu = document.getElementById("submenu-work");
+
+workMenuButton.addEventListener("click", () => {
+  const isOpen = workMenuButton.getAttribute("aria-expanded") === "true";
+
+  // Toggle aria-expanded
+  workMenuButton.setAttribute("aria-expanded", !isOpen);
+
+  // Toggle visibility
+  workSubmenu.hidden = isOpen;
+});
+
+// Optional: Close menu on Escape
+workMenuButton.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    workMenuButton.setAttribute("aria-expanded", "false");
+    workSubmenu.hidden = true;
+    workMenuButton.focus();
+  }
+});
+
+
 
