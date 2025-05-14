@@ -141,6 +141,10 @@
     align-items: end;
   }
 
+  .has-submenu a {
+    margin-right: 0;
+  }
+
   .submenu-arrow {
     font-family: var(--font-copy);
     display: inline-block;
