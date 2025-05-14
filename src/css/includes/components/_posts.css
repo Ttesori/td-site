@@ -9,6 +9,10 @@
   padding: var(--space-8) 0;
 }
 
+.post.container {
+  max-width: 850px;
+}
+
 .post .accent--underline-accent {
   width: 90%;
 }
@@ -40,6 +44,7 @@
 
 .post__title {
   margin: 1.5rem auto;
+  max-width: var(--break-md);
 }
 
 .post__meta {
