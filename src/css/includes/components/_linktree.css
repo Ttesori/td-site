@@ -1,0 +1,135 @@
+.linktree .header__container {
+  justify-content: center;
+}
+
+.linktree .nav,
+.linktree .footer__logo {
+  display: none;
+}
+
+.lt__hero {
+  padding: var(--space-4) var(--space-8) var(--space-8);
+  background: url('/img/bkg-light.webp');
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.linktree .hero__headline {
+  margin: 0;
+}
+
+.linktree .hero__subtitle {
+  font-size: var(--text-base);
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.lt__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.lt__container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.lt__main {
+  background: #006a7f url('/img/bkg-primary-dark.webp');
+  padding: var(--space-4) var(--space-8) var(--space-10);
+  background-size: cover;
+  color: white;
+  text-shadow: var(--shadow-dark) 0 0 0.25rem;
+}
+
+.lt-main__h2 {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: var(--text-lg);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.lt-list {
+}
+
+.lt-list,
+.lt-list__item {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  flex: 0 0 100%;
+}
+
+.lt-list__item {
+  margin-bottom: 0.75rem;
+  max-width: 325px;
+}
+
+.lt-list__item .btn {
+  text-transform: none;
+  font-size: var(--text-base);
+  line-height: 1;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.lt-main__h3 {
+  text-align: center;
+}
+
+.lt-main__footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.1rem 1rem 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.lt-main__footer h3 {
+  margin-bottom: 0.5rem;
+}
+
+.lt-main__footer p {
+  margin-top: 0;
+}
+
+.lt-main__footer a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 1.3em;
+  padding-right: 0.25rem;
+}
+
+.lt-main__h2 .emoji,
+.lt-main__h3 .emoji {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.linktree .footer .container .copyright {
+  width: 100%;
+}
+
+.linktree .footer .container .copyright p {
+  text-align: center;
+}
+
+.linktree .footer .container {
+  max-width: 400px;
+  flex-direction: column;
+}
