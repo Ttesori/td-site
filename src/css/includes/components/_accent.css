@@ -114,6 +114,12 @@
   height: 3.5rem;
 }
 
+.accent--icon-checkbox--sm {
+  width: 2.5rem;
+  height: 3rem;
+  top: 0.2rem;
+}
+
 .accent--icon-imagine {
   background: url('/img/icon-imagine.svg') no-repeat;
   background-size: contain;
