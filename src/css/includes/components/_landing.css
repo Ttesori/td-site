@@ -320,4 +320,7 @@
   .landing .main_content .cta {
     padding: 1rem;
   }
+  .landing .featured__cols {
+    gap: 3rem;
+  }
 }
