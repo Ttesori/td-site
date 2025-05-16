@@ -199,6 +199,10 @@
   gap: 1rem;
 }
 
+.landing .col__main {
+  max-width: 550px;
+}
+
 .landing .featured__img {
   border: 5px solid white;
   box-shadow: var(--shadow-subtle);
