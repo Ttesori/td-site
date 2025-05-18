@@ -96,6 +96,10 @@
   font-size: var(--text-base-lg);
 }
 
+.hero__copy--mb0 {
+  margin-bottom: 0;
+}
+
 .hero__copy--sm {
   font-size: var(--text-base);
 }

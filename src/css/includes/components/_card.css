@@ -141,6 +141,11 @@
   color: var(--color-primary-dark);
 }
 
+.card-list .card h3,
+.card-list .snippet__excerpt {
+  text-align: center;
+}
+
 .card-list .card.card a:link,
 .card-list .card.card a:visited {
   color: var(--color-primary-med);

@@ -7,7 +7,6 @@
   padding: var(--space-3) var(--space-4);
   border-radius: var(--space-4);
   font-weight: bold;
-  font-size: 0.95rem;
   max-width: 500px;
   transition: all 0.2s;
   position: relative;
@@ -111,7 +110,7 @@
     padding: var(--space-3) var(--space-8);
   }
   .btn {
-    font-size: var(--text-base);
+    font-size: var(--text-base-lg);
     border-radius: var(--space-5);
   }
   .btn--text {
