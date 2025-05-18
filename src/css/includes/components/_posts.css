@@ -113,7 +113,9 @@
   max-width: 350px;
   height: auto;
   position: relative;
+  margin: 0 auto;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .post-img--xs {
@@ -126,11 +128,6 @@
 
 .post-img--md {
   max-width: 300px;
-}
-
-.post .post__body-img--r,
-.post .post-img-r {
-  right: -2rem;
 }
 
 .post__footer {
@@ -173,6 +170,7 @@
   border-radius: 1.5rem;
   border: 1px solid #ccc;
 }
+
 .snippet__title {
   text-align: left;
   margin: 1.5rem 0 0.5rem;
@@ -360,5 +358,9 @@
   .post-img-r {
     float: right;
     margin-left: 1rem;
+  }
+  .post .post__body-img--r,
+  .post .post-img-r {
+    right: -2rem;
   }
 }

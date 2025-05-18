@@ -259,6 +259,11 @@
   font-weight: bold;
 }
 
+.imagine-cta {
+  margin-top: 6rem;
+  font-size: var(--text-base-lg);
+}
+
 .featured__imagine--mt5 {
   margin-top: 5rem;
 }
@@ -299,7 +304,7 @@
 @media (min-width: 768px) {
   .featured {
     font-size: 1.1em;
-    padding: var(--space-12) var(--space-8);
+    padding: var(--space-9) var(--space-8);
   }
 
   .featured__icon {
@@ -336,6 +341,9 @@
   .featured__imagine {
     padding-top: 8rem;
     margin-top: 4rem;
+  }
+  .imagine-cta {
+    font-size: var(--text-base);
   }
 }
 

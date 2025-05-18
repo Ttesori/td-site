@@ -77,7 +77,7 @@ body {
   clear: both;
 }
 
-@media (min-width: 764px) {
+@media (min-width: 768px) {
   html {
     font-size: var(--font-size-lg);
   }

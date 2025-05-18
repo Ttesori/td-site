@@ -141,6 +141,11 @@
   color: var(--color-primary-dark);
 }
 
+.card-list .card.card a:link,
+.card-list .card.card a:visited {
+  color: var(--color-primary-med);
+}
+
 .card--pricing {
   padding: 0;
   padding-bottom: 1.5rem;
@@ -223,6 +228,10 @@
   column-gap: 4rem;
   margin: var(--space-8) auto var(--space-2);
   justify-content: center;
+  box-shadow: var(--shadow-subtle);
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
 }
 
 .expect-list__list,
@@ -424,6 +433,10 @@
   .pricing__fit {
     font-size: var(--text-base-sm);
   }
+  .expect-list {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
   .expect-list__list li {
     flex: 0 0 45%;
   }
@@ -479,5 +492,12 @@
   .pricing__fit,
   .pricing__aside {
     padding: 0 1rem;
+  }
+  .card-list {
+    flex-wrap: wrap;
+  }
+
+  .card-list .card {
+    flex: 0 0 45%;
   }
 }

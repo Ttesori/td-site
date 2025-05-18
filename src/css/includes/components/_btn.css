@@ -4,11 +4,9 @@
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-title);
-  text-transform: uppercase;
   padding: var(--space-3) var(--space-4);
   border-radius: var(--space-4);
   font-weight: bold;
-  letter-spacing: 1px;
   font-size: 0.95rem;
   max-width: 500px;
   transition: all 0.2s;
@@ -35,10 +33,22 @@
   padding: var(--space-3) var(--space-8);
 }
 
+.btn--xwide {
+  padding: var(--space-3) var(--space-10);
+}
+
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-white);
   text-shadow: var(--shadow-dark) 0px 0px var(--space-1);
+}
+
+.btn--disabled {
+  background: var(--color-light);
+  color: #666;
+  cursor: auto;
+  line-height: 1;
+  margin: 0;
 }
 
 .btn--primary-dark {
@@ -87,13 +97,21 @@
   flex-direction: column;
 }
 
+.btn-group--submit {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .btn--wide {
     padding: var(--space-3) var(--space-8);
   }
   .btn {
     font-size: var(--text-base);
-    letter-spacing: 1px;
     border-radius: var(--space-5);
   }
   .btn--text {

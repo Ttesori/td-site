@@ -1,9 +1,11 @@
-<label for="{{field.name}}">{{field.label}}</label>
+<fieldset class="form-group form-group--radio">
+  <legend class="form-group__label"><label for="{{field.name}}">{{field.label}}</label></legend>
 
-<select name="{{field.name}}" id="{{field.name}}">
-  <option value="">--Please choose an option--</option>
-  {% for option in field.options %}
-  <option value="{{option.name}}">{{option.label}}</option>
-  {% endfor %}
+  <select name="{{field.name}}" id="{{field.name}}">
+    <option value="">--Please choose an option--</option>
+    {% for option in field.options %}
+    <option value="{{option.name}}">{{option.label}}</option>
+    {% endfor %}
 
-</select>
+  </select>
+</fieldset>
