@@ -12,6 +12,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/_redirects");
+  eleventyConfig.addPassthroughCopy("src/resources");
   eleventyConfig.addPlugin(lightningCSS);
   eleventyConfig.addWatchTarget("src/js");
 
