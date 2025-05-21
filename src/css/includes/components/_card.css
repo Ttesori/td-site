@@ -41,6 +41,10 @@
   padding: var(--space-0);
 }
 
+.cards--thirds .card {
+  max-width: 25rem;
+}
+
 .card__img {
   width: 100%;
   height: auto;
@@ -82,7 +86,7 @@
   color: var(--color-primary);
   background: url('/img/accent-dashed-line.svg') bottom no-repeat;
   padding-bottom: var(--space-4);
-  margin: var(--space-2) 0;
+  margin: var(--space-2) 0 var(--space-4);
 }
 
 .card__title--uppercase {
@@ -114,7 +118,7 @@
 
 .card__icon {
   display: block;
-  margin: 0 auto var(--space-2);
+  margin: 0 auto var(--space-3);
   max-width: 10rem;
 }
 
@@ -123,8 +127,9 @@
 }
 
 .card__copy {
-  margin: 0.25rem 0 0.5rem;
+  margin: 0.5rem 0 0.5rem;
   line-height: 1.5;
+  font-size: var(--text-base-lg);
 }
 
 .card__btn {
@@ -235,7 +240,7 @@
   justify-content: center;
   box-shadow: var(--shadow-subtle);
   border: 1px solid #eee;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem 2rem;
   border-radius: 2rem;
 }
 
@@ -252,6 +257,7 @@
   row-gap: var(--space-2);
   column-gap: var(--space-8);
   justify-content: center;
+  margin-bottom: 0.25rem;
 }
 .expect-list__list li {
   counter-increment: counter;
@@ -336,7 +342,7 @@
   line-height: 1.4;
 }
 
-.card--light a {
+.card--light p a {
   color: var(--color-primary-med);
   transition: all 0.2s;
 }
@@ -428,6 +434,12 @@
     max-height: none;
     margin-right: var(--space-4);
   }
+  .card__title {
+    margin-bottom: var(--space-2);
+  }
+  .card__copy {
+    font-size: var(--text-base);
+  }
   .pricing .card--pricing {
     padding: 0;
     padding-bottom: 1.5rem;
@@ -439,8 +451,7 @@
     font-size: var(--text-base-sm);
   }
   .expect-list {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
   }
   .expect-list__list li {
     flex: 0 0 45%;

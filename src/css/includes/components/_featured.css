@@ -48,6 +48,7 @@
   font-size: 3rem;
   font-weight: normal;
   margin: var(--space-3) var(--space-2) var(--space-4);
+  margin-left: 0;
   width: 100%;
   text-wrap: pretty;
   line-height: 1.5;
@@ -120,6 +121,7 @@
 
 .featured__copy p {
   margin: var(--space-3) 0;
+  font-size: var(--text-lg);
 }
 
 .featured .last-line {
@@ -157,6 +159,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  display: none;
 }
 
 .featured__list {
@@ -169,7 +172,7 @@
 .featured__list li {
   margin-bottom: var(--space-4);
   font-size: var(--text-base);
-  line-height: var(--headline-line-height);
+  line-height: 1.4;
   text-wrap: pretty;
   background: url('/img/accent-star-bullet.svg') no-repeat top left;
   padding-left: var(--space-10);
@@ -183,7 +186,8 @@
   background: url('/img/accent-arrow-accent.svg') no-repeat top left;
   background-size: 2.5rem;
   background-position: -0.5rem 0;
-  font-size: var(--text-base-lg);
+  font-size: var(--text-base);
+  font-weight: bold;
 }
 
 .featured__list strong {
@@ -264,6 +268,9 @@
   font-size: var(--text-base-lg);
 }
 
+.imagine-cta p:first-of-type {
+}
+
 .featured__imagine--mt5 {
   margin-top: 5rem;
 }
@@ -283,7 +290,6 @@
 
 .featured__imagine .btn {
   margin-top: 1rem;
-  gap: 0rem;
 }
 
 .featured__cta {
@@ -303,7 +309,6 @@
 
 @media (min-width: 768px) {
   .featured {
-    font-size: 1.1em;
     padding: var(--space-9) var(--space-8);
   }
 
@@ -345,12 +350,18 @@
   .imagine-cta {
     font-size: var(--text-base);
   }
+  .featured__copy p {
+    font-size: var(--text-base-lg);
+  }
 }
 
 @media (min-width: 1024px) {
   .featured__img--md-hide {
     display: block;
     padding-right: 2rem;
+  }
+  .featured__img-container {
+    display: block;
   }
   .featured {
   }

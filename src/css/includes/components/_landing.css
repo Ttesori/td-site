@@ -1,10 +1,9 @@
-.landing .nav,
+/* .landing .nav,
 .landing .footer__logo {
   display: none;
-}
+} */
 
 .landing .header__container {
-  justify-content: center;
 }
 
 .landing .footer .container {
@@ -89,7 +88,7 @@
   display: flex;
   gap: var(--space-4);
   align-items: flex-end;
-  background: rgba(0, 0, 0, 0.07);
+  background: rgba(0, 0, 0, 0.05);
   padding: 1rem 2rem;
   border-radius: 1rem;
   flex-wrap: wrap;
@@ -133,6 +132,18 @@
   color: #d53f4e;
 }
 
+.library__list {
+  margin-top: 0;
+}
+
+.library__list h3 {
+  margin-top: 0.5rem;
+}
+
+.library__item {
+  margin-bottom: 2.5rem;
+}
+
 #content.hidden {
   display: none;
 }
@@ -171,8 +182,7 @@
 }
 .landing .hero__subtitle {
   font-size: 1.35rem;
-  margin: 0;
-  margin-bottom: 0.5rem;
+  margin: 0 auto 0.5rem;
 }
 
 .landing .hero .btn {
@@ -181,7 +191,7 @@
 }
 
 .landing .hero {
-  padding: var(--space-4);
+  padding: var(--space-8) var(--space-4);
 }
 
 .landing .hero p strong {
@@ -316,7 +326,6 @@
 
 @media (min-width: 768px) {
   .landing .logo {
-    max-width: 500px;
   }
   .landing .container--lg {
     max-width: var(--break-lg);

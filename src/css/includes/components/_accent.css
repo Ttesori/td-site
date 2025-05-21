@@ -18,7 +18,9 @@
 .accent--arrow {
   background: url('/img/accent-arrow.svg') no-repeat right;
   background-size: contain;
-  width: 3rem;
+  background-position: left center;
+  margin-top: 3px;
+  width: 2.5rem;
   position: relative;
 }
 
@@ -27,6 +29,7 @@
   background-size: contain;
   width: 2rem;
   position: relative;
+  margin-top: 3px;
 }
 
 .accent--star-dark {

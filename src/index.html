@@ -10,13 +10,13 @@ preload: '
 <!-- Hero -->
 <section class="hero accent--border">
   <div class="container container--lg">
-    <div class="hero__img order-1 md:order-2">
+    <div class="hero__img" style="flex:0 0 55%">
       <img src="/img/hero-home.webp" alt="Image of a woman with a blurred colorful background with text that says Hi, I'm Toni" width="500" height="460">
     </div>
-    <div class="hero__text order-2 md:order-1">
+    <div class="hero__text" style="flex: 0 0 45%">
       <h2 class="hero__headline">Design that makes things easier</h2>
-      <p class="hero__copy"><span class="first-line">I help small businesses and nonprofits</span> with affordable web and graphic design — starting with quick, focused Design SOS sessions that free up your time for the work you care about most.<br>
-        <a class="hero__btn btn btn--wide btn--primary-dark btn--deco btn--deco-wide" href="#help"><span class="accent accent--star"></span>
+      <p class="hero__copy"><span class="first-line">I help small businesses and nonprofits</span> with affordable web and graphic design — starting with <strong> focused Design SOS sessions</strong> that free up your time for the work you care about most.<br>
+        <a class="hero__btn btn btn--wide btn--accent btn--deco btn--deco-wide" href="#help"><span class="accent accent--star-dark"></span>
           See How I Can Help</a>
       </p>
     </div>
@@ -26,7 +26,7 @@ preload: '
 <!-- What If... -->
 <section class="featured featured--primary accent--border">
   <div class="container container--md md:text-left ">
-    <h2 class="featured__title featured__title--deco"><span class="accent accent--star accent--sm-hide"></span> What
+    <h2 class="featured__title featured__title--deco"><span class="accent accent--star"></span> What
       if...?</h2>
     <div class="featured__copy">
       <p><span class="first-line--light"> What if you didn't have to spend weeks staring </span>at that wonky website section...wondering how in the heck to fix it without breaking everything else?</p>
@@ -49,14 +49,14 @@ preload: '
       Can Help
       <span class="accent accent--dots"></span>
     </h2>
-    <h3 class="main_content__subtitle"><span class="first-line">From design emergencies to ongoing support</span> — I offer solutions that make your day-to-day easier, starting exactly where you need help most.
+    <h3 class="main_content__subtitle container container--md"><span class="first-line">From design emergencies to ongoing support</span> — I offer solutions that make your day-to-day easier, starting exactly where you need help most.
     </h3>
 
 
-    <div class="cards">
+    <div class="cards cards--thirds">
 
       <article class="card card--light  card--shadow">
-        <img src="/img/icon-sos.svg" alt="" width="200" height="165" class="card__icon">
+        <img src="/img/icon-sos_2.svg" alt="" width="200" height="165" class="card__icon">
         <h4 class="card__title card__title--uppercase">
           Design SOS</h4>
         <p class="card__copy"><span class="first-line">Got a design mess? </span> Website emergency? Send it my way and I'll take care of it: quick, affordable, and almost like magic.</p>
@@ -66,7 +66,7 @@ preload: '
 
       <!-- Design Support -->
       <article class="card card--light  card--shadow">
-        <img src="/img/icon-toolbox.svg" alt="Icon of a conversation" width="200" height="165" class="card__icon">
+        <img src="/img/icon-toolbox_2.svg" alt="Icon of a conversation" width="200" height="165" class="card__icon">
         <h4 class="card__title card__title--uppercase">DIY Toolbox</h4>
         <p class="card__copy"><span class="first-line">Want to tackle design </span> yourself? Templates, guides, and tools to help you create professional-looking materials on your own timeline.</p>
         <a href="/mailing-list" class="btn btn--accent btn--deco card__btn"><span>Get Early Access</span><span class="accent accent--arrow-sm"></span></a>
@@ -74,7 +74,7 @@ preload: '
 
 
       <article class="card card--light  card--shadow">
-        <img src="/img/icon-gift_3.svg" alt="Icon of a computer monitor and a piece of paper" width="200" height="165" class="card__icon">
+        <img src="/img/icon-gift_4.svg" alt="Icon of a computer monitor and a piece of paper" width="200" height="165" class="card__icon">
         <h4 class="card__title card__title--uppercase">Free Resources</h4>
         <p class="card__copy"><span class="first-line"> Start improving your design</span> on your own with templates and guides I've created for small business owners and nonprofits.</p>
         <a href="/free-resources" class="btn btn--accent  btn--deco card__btn"><span>See Resources </span><span class="accent accent--arrow-sm"></span></a>
@@ -143,7 +143,7 @@ preload: '
         </p>
       </div>
       <div class="featured__cta">
-        <a href="/about" class="btn btn--accent btn--deco btn--wide"><span>Learn More About Me</span><span class="accent accent--arrow"></span></a>
+        <a href="/about" class="btn btn--accent btn--deco "><span>Learn More About Me</span><span class="accent accent--arrow"></span></a>
       </div>
 
     </article>
@@ -153,7 +153,7 @@ preload: '
 <!-- Contact -->
 <aside class="featured featured--primary">
   <div class="container container--lg">
-    <h2 class="featured__title featured__title--deco leading-sm"><span class="accent accent--star  accent--sm-hide"></span> <span>Need a Design SOS?</span></h2>
+    <h2 class="featured__title featured__title--deco leading-sm"><span class="accent accent--star  accent--sm-hide"></span> <span>Need a Design Fix?</span></h2>
     <h3 class="featured__subtitle"><span class="first-line--light"> Tell me what's driving you crazy</span> and I'll reply with next steps and how I can help.</h3>
 
     {% include "components/contact-form.html" %}
