@@ -100,6 +100,10 @@
   margin-top: -0.5rem;
 }
 
+.post__body strong {
+  color: var(--color-primary-dark);
+}
+
 .post__body-img {
   border: 1px solid var(--color-light);
   width: 100%;
@@ -136,6 +140,7 @@
 
 .post__cta {
   text-align: center;
+  padding: 0 0.5rem;
 }
 .post__cta h3 {
   font-size: var(--text-lg);
