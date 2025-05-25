@@ -133,3 +133,27 @@
   max-width: 400px;
   flex-direction: column;
 }
+@media (min-width: 768px) {
+  .lt__container {
+    max-width: 1000px;
+  }
+  .lt-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .lt-list__item {
+    flex: 0 0 45%;
+    max-width: none;
+    margin: 0;
+  }
+  .lt-main__h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .lt-main__footer {
+    max-width: 768px;
+    margin: 2.5rem auto 1rem;
+  }
+}
