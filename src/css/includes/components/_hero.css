@@ -173,6 +173,9 @@
   .hero__text {
     max-width: 30rem;
   }
+  .home .hero__headline {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
