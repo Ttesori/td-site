@@ -23,7 +23,7 @@
 
 .linktree .hero__subtitle {
   font-size: var(--text-base);
-  line-height: 1.5;
+  line-height: 1.65;
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
@@ -40,7 +40,7 @@
 
 .lt__main {
   background: #006a7f url('/img/bkg-primary-dark.webp');
-  padding: var(--space-4) var(--space-8) var(--space-10);
+  padding: var(--space-2) var(--space-8) var(--space-10);
   background-size: cover;
   color: white;
   text-shadow: var(--shadow-dark) 0 0 0.25rem;
@@ -49,11 +49,9 @@
 .lt-main__h2 {
   text-align: center;
   font-family: var(--font-title);
-  font-size: var(--text-lg);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 1.25rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .lt-list {
@@ -69,7 +67,6 @@
 
 .lt-list__item {
   margin-bottom: 0.75rem;
-  max-width: 325px;
 }
 
 .lt-list__item .btn {
@@ -78,10 +75,17 @@
   line-height: 1;
   letter-spacing: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   gap: 0.25rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  color: var(--color-primary-darker);
+  padding: 0.75rem 1rem;
+  line-height: 1.2;
+}
+
+.freebie-subtitle {
+  font-family: var(--font-copy);
+  font-size: 0.95rem;
 }
 
 .lt-main__h3 {
@@ -135,18 +139,11 @@
 }
 @media (min-width: 768px) {
   .lt__container {
-    max-width: 1000px;
   }
   .lt-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 1rem;
   }
   .lt-list__item {
-    flex: 0 0 45%;
-    max-width: none;
-    margin: 0;
   }
   .lt-main__h2 {
     margin-top: 2rem;
