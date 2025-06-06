@@ -22,6 +22,12 @@
   margin: 0 auto;
 }
 
+.logo span {
+  display: block;
+  height: 1px;
+  text-indent: -999em;
+}
+
 .logo__img {
   width: 100%;
   height: auto;

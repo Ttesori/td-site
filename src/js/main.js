@@ -237,5 +237,27 @@ workMenuButton.addEventListener("keydown", (e) => {
   }
 });
 
+const serviceMenuButton = document.getElementById("service-button");
+const serviceSubmenu = document.getElementById("submenu-service");
+
+serviceMenuButton.addEventListener("click", () => {
+  const isOpen = serviceMenuButton.getAttribute("aria-expanded") === "true";
+
+  // Toggle aria-expanded
+  serviceMenuButton.setAttribute("aria-expanded", !isOpen);
+
+  // Toggle visibility
+  serviceSubmenu.hidden = isOpen;
+});
+
+// Optional: Close menu on Escape
+serviceMenuButton.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    serviceMenuButton.setAttribute("aria-expanded", "false");
+    serviceSubmenu.hidden = true;
+    serviceMenuButton.focus();
+  }
+});
+
 
 

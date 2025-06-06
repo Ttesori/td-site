@@ -136,7 +136,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    padding: var(--space-8) var(--space-6);
+    padding: var(--space-5);
   }
   .hero__img,
   .hero__text {
@@ -167,14 +167,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--space-6);
+    gap: var(--space-8);
     padding: 1rem 0 1.5rem;
   }
   .hero__text {
     max-width: 30rem;
   }
   .home .hero__headline {
-    font-size: 3rem;
   }
 }
 

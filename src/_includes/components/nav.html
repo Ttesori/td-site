@@ -7,14 +7,16 @@
     <nav class="nav__menu" id="nav__menu">
       <ul class="nav__list">
         <li><a href="/" class="nav--home">Home</a></li>
-        <li><a href="/services/design-sos" class="nav--services">Design SOS</a></li>
-
+        <li class="has-submenu"><a href="/services/design-sos" class="nav--services"><button aria-haspopup="true" aria-expanded="false" aria-controls="submenu-service" id="service-button" class="btn--submenu">Services<span class="submenu-arrow">▾</span></button></a>
+          <ul class="nav__l2" id="submenu-service" role="menu" aria-labelledby="service-button" hidden>
+            <li role="none"><a href="/services/design-sos">Website SOS</a></li>
+            <li role="none"><a href="/services/website-redesign">Website Refresh</a></li>
+            <li role="none"><a href="/services/web-design">Website Build</a></li>
+          </ul>
         </li>
         <li class="has-submenu"><a href="/free-resources" class="nav--resources"><button aria-haspopup="true" aria-expanded="false" aria-controls="submenu-work" id="work-button" class="btn--submenu">Resources<span class="submenu-arrow">▾</span></button></a>
           <ul class="nav__l2" id="submenu-work" role="menu" aria-labelledby="work-button" hidden>
-            <li role="none"><a href="/landing/what-to-post">What To Post Workbook</a></li>
-            <li role="none"><a href="/landing/brand-guidelines">Brand Guidelines Template</a></li>
-            <li role="none"><a href="/landing/canva-social-graphics">5 Social Media Templates</a></li>
+
             <li role="none"><a href="/tys-little-free-library">🔒 Ty's Little Free Library</a></li>
           </ul>
         </li>

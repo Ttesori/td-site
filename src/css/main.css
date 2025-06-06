@@ -247,7 +247,7 @@ main a:visited:not(.btn) {
   font-family: var(--font-headline);
   font-size: var(--text-xl);
   font-weight: normal;
-  margin: 0.25rem 0 0.5rem;
+  margin: 0.25rem 0 0.25rem;
 }
 
 .p--deco {
@@ -331,6 +331,7 @@ main a:visited:not(.btn) {
   .feature {
     flex: 0 0 44%;
     flex-direction: row;
+    align-items: center;
   }
   .features-list--col .feature {
     flex-direction: row;
