@@ -39,10 +39,12 @@ See the color palette below, and <a href="https://coolors.co/3c3439-60575f-82737
 The suggested title font for this palette is <a href="https://fonts.google.com/specimen/Crimson+Pro">Crimson Pro</a>. The great body copy pairing is <a href="https://fonts.google.com/specimen/Source+Sans+3">Source Sans</a>. Both the title and body font can be found on Google Fonts, so they're free and easy to use.
 
 #### See It In Action
+<div style="display:flex; justify-content:center;flex-wrap:wrap;max-width:500px;align-items:space-between;">
 <button class="modal__btn open-modal-button" data-image="/img/uploads/ShadowSageWebsite.webp" data-alt="Shadow & Sage Website Example" data-description="Here is an example website for a therapy practice using this color palette.">
-<img src="/img/uploads/ShadowSageWebsite.webp" alt="An example website for a therapy practice using the Shadow & Sage color palette" width="455" class=""></button>
+<img src="/img/uploads/ShadowSageWebsite.webp" alt="An example website for a therapy practice using the Shadow & Sage color palette" width="455" class=""></button><br>
 <button class="modal__btn open-modal-button" data-image="/img/uploads/ShadowSageSocial.webp" data-alt="Shadow & Sage Website Example" data-description="Here is an example website for a therapy practice using this color palette.">
 <img src="/img/uploads/ShadowSageSocial.webp" alt="An example website for a therapy practice using the Shadow & Sage color palette" width="205" class=""></button>
 <button class="modal__btn open-modal-button" data-image="/img/uploads/ShadowSagePricing.webp" data-alt="Shadow & Sage Website Example" data-description="Here is an example website for a therapy practice using this color palette.">
 <img src="/img/uploads/ShadowSagePricing.webp" alt="An example website for a therapy practice using the Shadow & Sage color palette" width="205" class=""></button>
+</div>
 
