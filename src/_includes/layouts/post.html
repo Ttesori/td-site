@@ -12,12 +12,6 @@ layout: layouts/base.html
 <section class="post container container--md">
   <h2 class="post__title">{{ title }}</h2>
   <span class="accent--underline-accent"></span>
-  <aside class="post__meta">
-    Posted {{ date | date('MMMM d, yyyy') }} {% if categories %} <span class="post__categories">in {% for category
-      in categories %} {{
-      category }} {% endfor %}</span> {% endif
-    %}
-  </aside>
   <div class="post__body">
     {{ content | safe }}
   </div>
